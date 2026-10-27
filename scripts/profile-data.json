@@ -1,0 +1,64 @@
+{
+  "name": "Mohammad Navidi",
+  "name_fa": "محمد نویدی",
+  "studio_fa": "استودیو نویدیکس",
+  "eyebrow": "NAVIDIX STUDIO  ·  AI × CINEMA × CODE",
+  "creed_fa": "ساختن  ·  یاد گرفتن  ·  منتشر کردن",
+  "creed_en": "BUILD  ·  LEARN  ·  PUBLISH",
+  "motto_fa": "از یک جمله، تا یک نما",
+  "less_talk_fa": "کمتر حرف، بیشتر ساختن",
+  "bio_line_1": "Independent science & tech cinema + unified 444-model AI production gateway.",
+  "bio_line_2": "Field-tested Persian AI curriculum — Less talk, more building.",
+  "dag_input_fa": "یک جمله",
+  "dag_output_fa": "یک نما",
+  "buttons": [
+    { "file": "btn-website.svg",   "label": "navidixstudio.com",  "w": 154, "bg1": "#3B1018", "bg2": "#1C0A12", "border": "#E3202A", "dot": "#FF5A5F", "text": "#FFFFFF", "primary": true },
+    { "file": "btn-studio.svg",    "label": "AI Studio · 444+",   "w": 144, "bg1": "#13264A", "bg2": "#0B152B", "border": "#2B6CFF", "dot": "#38BDF8", "text": "#EAF2FF", "primary": false },
+    { "file": "btn-youtube.svg",   "label": "YouTube · @navidix", "w": 162, "bg1": "#1A243B", "bg2": "#0E1525", "border": "#364B73", "dot": "#FF4E45", "text": "#DCE8FC", "primary": false },
+    { "file": "btn-instagram.svg", "label": "Instagram",          "w": 108, "bg1": "#1A243B", "bg2": "#0E1525", "border": "#364B73", "dot": "#F472B6", "text": "#DCE8FC", "primary": false },
+    { "file": "btn-telegram.svg",  "label": "Telegram",           "w": 106, "bg1": "#1A243B", "bg2": "#0E1525", "border": "#364B73", "dot": "#38BDF8", "text": "#DCE8FC", "primary": false },
+    { "file": "btn-linkedin.svg",  "label": "LinkedIn",           "w": 102, "bg1": "#1A243B", "bg2": "#0E1525", "border": "#364B73", "dot": "#60A5FA", "text": "#DCE8FC", "primary": false }
+  ],
+  "benchmarks": [
+    {
+      "name": "Gemini Nano Banana 2.1",
+      "tag": "100% Face-Lock & FA Type",
+      "score": "99.1%",
+      "pct": 99.1,
+      "color1": "#F59E0B",
+      "color2": "#FDE047"
+    },
+    {
+      "name": "Google Veo 3.1",
+      "tag": "Cinema Video + Lip-Sync Audio",
+      "score": "98.6%",
+      "pct": 98.6,
+      "color1": "#E3202A",
+      "color2": "#FF6A5A"
+    },
+    {
+      "name": "Flux 3 & Recraft V4.1",
+      "tag": "Studio Realism & Pure SVG",
+      "score": "98.0%",
+      "pct": 98.0,
+      "color1": "#10B981",
+      "color2": "#6EE7B7"
+    },
+    {
+      "name": "Claude Sonnet 5.5 & Grok 4.7",
+      "tag": "Agentic SWE & Architecture",
+      "score": "97.4%",
+      "pct": 97.4,
+      "color1": "#2B6CFF",
+      "color2": "#8FDBFF"
+    },
+    {
+      "name": "GPT-6 Astra & Gemini 4 Argon",
+      "tag": "Opaque Reasoning & SecAudit",
+      "score": "96.9%",
+      "pct": 96.9,
+      "color1": "#8B5CF6",
+      "color2": "#C4B5FD"
+    }
+  ]
+}

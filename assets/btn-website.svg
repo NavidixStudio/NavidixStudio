@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154 36" width="154" height="36" role="img" aria-label="navidixstudio.com">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B1018"/>
+      <stop offset="100%" stop-color="#1C0A12"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="152" height="34" rx="10" fill="url(#g)" stroke="#E3202A" stroke-width="1.25"/>
+  <circle cx="17" cy="18" r="3.6" fill="#FF5A5F"><animate attributeName="r" values="3.2;4.5;3.2" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="28" y="22.2" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">navidixstudio.com</text>
+</svg>

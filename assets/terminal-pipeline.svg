@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 376" width="960" height="376" role="img" aria-label="Navidix Multi-Model Code Pipeline">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18243D"/>
+      <stop offset="100%" stop-color="#0A101E"/>
+    </linearGradient>
+    <linearGradient id="ideBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1424"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="execHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E3202A" stop-opacity="0.26"/>
+      <stop offset="48%" stop-color="#2B6CFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2B6CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="progGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E3202A"/>
+      <stop offset="55%" stop-color="#2B6CFF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <style><![CDATA[
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif; }
+    .fa   { font-family: 'Estedad', 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace; }
+
+    .kw  { fill: #FF6B81; font-weight: 600; }
+    .fn  { fill: #7DD3FC; }
+    .str { fill: #A7F3D0; }
+    .num { fill: #FDE047; }
+    .cmt { fill: #6983A8; font-style: italic; }
+    .prp { fill: #C4B5FD; }
+    .txt { fill: #E2E8F0; }
+
+    .stage-a { animation: stagePulse 9s ease-in-out 0s infinite; }
+    .stage-b { animation: stagePulse 9s ease-in-out -6s infinite; }
+    .stage-c { animation: stagePulse 9s ease-in-out -3s infinite; }
+
+    @keyframes stagePulse {
+      0%, 100% { opacity: 0.84; }
+      18%, 32% { opacity: 1; }
+    }
+
+    .cur-ide { animation: curIdeBlink 1s steps(2, start) infinite; }
+    @keyframes curIdeBlink {
+      0%, 100% { opacity: 0.95; }
+      50%      { opacity: 0.1; }
+    }
+
+    .wire { stroke-dasharray: 4 6; animation: wireFlow 1.5s linear infinite; }
+    @keyframes wireFlow {
+      from { stroke-dashoffset: 20; }
+      to   { stroke-dashoffset: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .stage-a, .stage-b, .stage-c, .cur-ide, .wire { animation: none !important; opacity: 1 !important; }
+    }
+  ]]></style>
+
+  <!-- Outer Card -->
+  <rect x="2" y="2" width="956" height="372" rx="18" fill="url(#panelBg)" stroke="#293B5C" stroke-width="1.4"/>
+
+  <!-- ==================== LEFT: ANIMATED CODE IDE (516px) ==================== -->
+  <rect x="18" y="18" width="516" height="340" rx="13" fill="url(#ideBg)" stroke="#263859" stroke-width="1.2"/>
+  <path d="M 18 31 Q 18 18 31 18 L 521 18 Q 534 18 534 31 L 534 52 L 18 52 Z" fill="#131E35"/>
+  <line x1="18" y1="52" x2="534" y2="52" stroke="#243554" stroke-width="1"/>
+  <circle cx="36" cy="35" r="5" fill="#FF5F56"/>
+  <circle cx="52" cy="35" r="5" fill="#FFBD2E"/>
+  <circle cx="68" cy="35" r="5" fill="#27C93F"/>
+  <rect x="88" y="23" width="166" height="29" rx="6" fill="#0B1220" stroke="#263859" stroke-width="1"/>
+  <text x="102" y="41" class="mono" font-size="11.5" font-weight="600" fill="#E2E8F0">pipeline.navidix.ts</text>
+  <text x="518" y="40" text-anchor="end" class="mono" font-size="10.5" fill="#38BDF8">&#9679; SDK v2026.10</text>
+
+  <!-- Animated Scanning Execution Bar + Left Active Indicator -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,95; 0,152; 0,0" dur="9s" repeatCount="indefinite"/>
+    <rect x="19" y="121" width="514" height="38" fill="url(#execHighlight)"/>
+    <rect x="19" y="121" width="2.5" height="38" fill="#E3202A"/>
+  </g>
+
+  <!-- Line Numbers -->
+  <g class="mono" font-size="11.2" fill="#4B6287" text-anchor="end">
+    <text x="45" y="76">01</text>
+    <text x="45" y="95">02</text>
+    <text x="45" y="114">03</text>
+    <text x="45" y="133">04</text>
+    <text x="45" y="152">05</text>
+    <text x="45" y="171">06</text>
+    <text x="45" y="190">07</text>
+    <text x="45" y="209">08</text>
+    <text x="45" y="228">09</text>
+    <text x="45" y="247">10</text>
+    <text x="45" y="266">11</text>
+    <text x="45" y="285">12</text>
+    <text x="45" y="304">13</text>
+  </g>
+  <line x1="54" y1="53" x2="54" y2="324" stroke="#1B2942" stroke-width="1"/>
+
+  <!-- Always-Crisp Syntax-Highlighted TypeScript Pipeline (2026 Flagship Models) -->
+  <g class="mono" font-size="11.5">
+    <text x="64" y="76"><tspan class="kw">import</tspan> <tspan class="txt">{ NavidixStudio }</tspan> <tspan class="kw">from</tspan> <tspan class="str">"@navidix/ai-gateway"</tspan><tspan class="txt">;</tspan></text>
+    <text x="64" y="95"><tspan class="kw">const</tspan> <tspan class="txt">nvx = </tspan><tspan class="kw">new</tspan> <tspan class="fn">NavidixStudio</tspan><tspan class="txt">({ </tspan><tspan class="prp">models</tspan><tspan class="txt">: </tspan><tspan class="num">444</tspan><tspan class="txt">, </tspan><tspan class="prp">lang</tspan><tspan class="txt">: </tspan><tspan class="str">"fa"</tspan><tspan class="txt"> });</tspan></text>
+
+    <g class="stage-a">
+      <text x="64" y="114" class="cmt">// 1. Agentic Architecture, Reasoning &amp; Security Audit</text>
+      <text x="64" y="133"><tspan class="kw">const</tspan> <tspan class="txt">script = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">reason</tspan><tspan class="txt">({</tspan></text>
+      <text x="80" y="152"><tspan class="prp">lead</tspan><tspan class="txt">: [</tspan><tspan class="str">"claude-sonnet-5.5"</tspan><tspan class="txt">, </tspan><tspan class="str">"gpt-6-astra"</tspan><tspan class="txt">],</tspan></text>
+      <text x="80" y="171"><tspan class="prp">audit</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-4-argon"</tspan><tspan class="txt">, </tspan><tspan class="prp">fast</tspan><tspan class="txt">: </tspan><tspan class="str">"deepseek-v4.1-flash"</tspan></text>
+      <text x="64" y="190"><tspan class="txt">});</tspan></text>
+    </g>
+
+    <g class="stage-b">
+      <text x="64" y="209" class="cmt">// 2. Studio Keyframes, 100% Face-Lock &amp; Pure Vector SVG</text>
+      <text x="64" y="228"><tspan class="kw">const</tspan> <tspan class="txt">art = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">imagine</tspan><tspan class="txt">({ </tspan><tspan class="prp">raw</tspan><tspan class="txt">: </tspan><tspan class="str">"flux-3-image"</tspan><tspan class="txt">,</tspan></text>
+      <text x="80" y="247"><tspan class="prp">edit</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-nano-banana-2.1"</tspan><tspan class="txt">, </tspan><tspan class="prp">svg</tspan><tspan class="txt">: </tspan><tspan class="str">"recraft-v4.1"</tspan><tspan class="txt"> });</tspan></text>
+    </g>
+
+    <g class="stage-c">
+      <text x="64" y="266" class="cmt">// 3. Anamorphic Cinema + Native Lip-Synced Persian Voice</text>
+      <text x="64" y="285"><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">direct</tspan><tspan class="txt">({ </tspan><tspan class="prp">cinema</tspan><tspan class="txt">: [</tspan><tspan class="str">"google-veo-3.1"</tspan><tspan class="txt">, </tspan><tspan class="str">"kling-o1"</tspan><tspan class="txt">],</tspan></text>
+      <text x="80" y="304"><tspan class="prp">physics</tspan><tspan class="txt">: </tspan><tspan class="str">"flux-3-video"</tspan><tspan class="txt">, </tspan><tspan class="prp">tts</tspan><tspan class="txt">: </tspan><tspan class="str">"navidix-persian-tts"</tspan><tspan class="txt"> });</tspan></text>
+    </g>
+    <rect x="468" y="292" width="6.5" height="14" rx="1.2" fill="#38BDF8" class="cur-ide"/>
+  </g>
+
+  <!-- IDE Status Footer & Animated Compile Bar -->
+  <path d="M 19 325 L 533 325 L 533 345 Q 533 357 521 357 L 31 357 Q 19 357 19 345 Z" fill="#0B1324"/>
+  <line x1="18" y1="325" x2="534" y2="325" stroke="#223352" stroke-width="1"/>
+  <rect x="28" y="325" width="220" height="2" fill="url(#progGrad)">
+    <animate attributeName="width" values="60;492;60" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="34" cy="341" r="3.6" fill="#34D399"/>
+  <text x="45" y="345" class="mono" font-size="10.8" fill="#94B0DA">&#10003; 4/4 pipelines compiled &#183; OpenRouter live &#183; 4K 24fps master</text>
+
+
+  <!-- ==================== RIGHT: LIVE NEURAL DAG (394px) ==================== -->
+  <rect x="548" y="18" width="394" height="340" rx="13" fill="#0B1222" fill-opacity="0.92" stroke="#263859" stroke-width="1.2"/>
+  <text x="566" y="42" class="mono" font-size="11" font-weight="700" fill="#BFD6FA" letter-spacing="0.9">MULTI-MODEL ROUTING DAG</text>
+  <circle cx="884" cy="38" r="3.5" fill="#34D399">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="926" y="42" text-anchor="end" class="mono" font-size="10.5" fill="#6EE7B7">LIVE</text>
+  <line x1="548" y1="52" x2="942" y2="52" stroke="#223352" stroke-width="1"/>
+
+  <!-- Neural Bezier Fibers (Input 630 -> 4 Engines 670..842 -> Output 876) -->
+  <g fill="none" stroke-width="1.5">
+    <path d="M 630 202 C 650 202, 648 98, 670 98" stroke="#38BDF8" stroke-opacity="0.45" class="wire"/>
+    <path d="M 630 202 C 650 202, 650 166, 670 166" stroke="#34D399" stroke-opacity="0.45" class="wire"/>
+    <path d="M 630 202 C 650 202, 650 234, 670 234" stroke="#FB7185" stroke-opacity="0.45" class="wire"/>
+    <path d="M 630 202 C 650 202, 648 302, 670 302" stroke="#FBBF24" stroke-opacity="0.45" class="wire"/>
+
+    <path d="M 842 98 C 862 98, 858 202, 876 202" stroke="#38BDF8" stroke-opacity="0.45" class="wire"/>
+    <path d="M 842 166 C 860 166, 860 202, 876 202" stroke="#34D399" stroke-opacity="0.45" class="wire"/>
+    <path d="M 842 234 C 860 234, 860 202, 876 202" stroke="#FB7185" stroke-opacity="0.45" class="wire"/>
+    <path d="M 842 302 C 862 302, 858 202, 876 202" stroke="#FBBF24" stroke-opacity="0.45" class="wire"/>
+  </g>
+
+  <!-- Streaming Neural Photon Packets (Negative begin offsets so ALL are mid-flight at t=0!) -->
+  <circle r="3.3" fill="#7DD3FC"><animateMotion dur="2.2s" begin="0s" repeatCount="indefinite" path="M 630 202 C 650 202, 648 98, 670 98"/></circle>
+  <circle r="3.3" fill="#6EE7B7"><animateMotion dur="2.2s" begin="-0.55s" repeatCount="indefinite" path="M 630 202 C 650 202, 650 166, 670 166"/></circle>
+  <circle r="3.3" fill="#FF6A5A"><animateMotion dur="2.2s" begin="-1.1s" repeatCount="indefinite" path="M 630 202 C 650 202, 650 234, 670 234"/></circle>
+  <circle r="3.3" fill="#FDE047"><animateMotion dur="2.2s" begin="-1.65s" repeatCount="indefinite" path="M 630 202 C 650 202, 648 302, 670 302"/></circle>
+
+  <circle r="3.3" fill="#7DD3FC"><animateMotion dur="2.2s" begin="-1.1s" repeatCount="indefinite" path="M 842 98 C 862 98, 858 202, 876 202"/></circle>
+  <circle r="3.3" fill="#6EE7B7"><animateMotion dur="2.2s" begin="-1.65s" repeatCount="indefinite" path="M 842 166 C 860 166, 860 202, 876 202"/></circle>
+  <circle r="3.3" fill="#FF6A5A"><animateMotion dur="2.2s" begin="-0.35s" repeatCount="indefinite" path="M 842 234 C 860 234, 860 202, 876 202"/></circle>
+  <circle r="3.3" fill="#FDE047"><animateMotion dur="2.2s" begin="-0.9s" repeatCount="indefinite" path="M 842 302 C 862 302, 858 202, 876 202"/></circle>
+
+  <!-- Source Node: IDEA / PROMPT -->
+  <g transform="translate(560, 173)">
+    <rect x="0" y="0" width="70" height="58" rx="11" fill="#1A1121" stroke="#E3202A" stroke-width="1.4"/>
+    <text x="35" y="25" text-anchor="middle" class="mono" font-size="10.2" font-weight="700" fill="#FF7B73">PROMPT</text>
+    <text x="35" y="44" text-anchor="middle" class="fa" font-size="12" font-weight="700" fill="#FFFFFF">یک جمله</text>
+  </g>
+
+  <!-- Engine Node 1: LLM & Code (172px wide for generous breathing room) -->
+  <g transform="translate(670, 72)">
+    <rect x="0" y="0" width="172" height="52" rx="10" fill="#101D36" stroke="#2B6CFF" stroke-width="1.2"/>
+    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#E0EEFF">LLM &amp; Agentic Code</text>
+    <text x="12" y="38" class="mono" font-size="9.7" fill="#7DD3FC">Sonnet 5.5 &#183; Astra &#183; Argon</text>
+  </g>
+
+  <!-- Engine Node 2: Image & Vector -->
+  <g transform="translate(670, 140)">
+    <rect x="0" y="0" width="172" height="52" rx="10" fill="#0E2329" stroke="#10B981" stroke-width="1.2"/>
+    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#D1FAE5">Studio Image &amp; SVG</text>
+    <text x="12" y="38" class="mono" font-size="9.7" fill="#6EE7B7">Flux 3 &#183; Nano Banana 2.1</text>
+  </g>
+
+  <!-- Engine Node 3: Cinema Video -->
+  <g transform="translate(670, 208)">
+    <rect x="0" y="0" width="172" height="52" rx="10" fill="#231220" stroke="#E3202A" stroke-width="1.2"/>
+    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#FFE4E6">Cinema &amp; Physics</text>
+    <text x="12" y="38" class="mono" font-size="9.7" fill="#FDA4AF">Veo 3.1 &#183; Flux 3 &#183; Kling O1</text>
+  </g>
+
+  <!-- Engine Node 4: Persian Audio -->
+  <g transform="translate(670, 276)">
+    <rect x="0" y="0" width="172" height="52" rx="10" fill="#231D12" stroke="#F59E0B" stroke-width="1.2"/>
+    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#FEF3C7">Persian Voice &amp; SFX</text>
+    <text x="12" y="38" class="mono" font-size="9.7" fill="#FDE047">Navidix TTS &#183; Voice Clone</text>
+  </g>
+
+  <!-- Output Master Node: 4K FRAME -->
+  <g transform="translate(876, 169)">
+    <rect x="-3" y="-3" width="58" height="72" rx="13" fill="none" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.2;0.85;0.2" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="0" width="52" height="66" rx="11" fill="#122342" stroke="#38BDF8" stroke-width="1.4"/>
+    <text x="26" y="26" text-anchor="middle" class="mono" font-size="12" font-weight="800" fill="#8FDBFF">4K</text>
+    <text x="26" y="47" text-anchor="middle" class="fa" font-size="12" font-weight="700" fill="#FFFFFF">یک نما</text>
+  </g>
+</svg>

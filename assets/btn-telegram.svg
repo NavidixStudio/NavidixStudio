@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 36" width="106" height="36" role="img" aria-label="Telegram">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A243B"/>
+      <stop offset="100%" stop-color="#0E1525"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="104" height="34" rx="10" fill="url(#g)" stroke="#364B73" stroke-width="1.25"/>
+  <circle cx="17" cy="18" r="3.6" fill="#38BDF8"></circle>
+  <text x="28" y="22.2" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#DCE8FC">Telegram</text>
+</svg>

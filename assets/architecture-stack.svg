@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 324" width="960" height="324" role="img" aria-label="Navidix Architecture and Engineering Stack">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#192640"/>
+      <stop offset="100%" stop-color="#090E1B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131E35"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="topHairline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E3202A"/>
+      <stop offset="60%" stop-color="#2B6CFF"/>
+      <stop offset="100%" stop-color="#2B6CFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style><![CDATA[
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif; }
+    .fa   { font-family: 'Estedad', 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace; }
+  ]]></style>
+
+  <rect x="2" y="2" width="956" height="320" rx="18" fill="url(#archBg)" stroke="#293B5C" stroke-width="1.4"/>
+
+  <text x="24" y="33" class="mono" font-size="11.5" font-weight="700" fill="#9CC2F5" letter-spacing="1.2">02 &#183; STUDIO TRACKS &amp; FULL-STACK ARCHITECTURE</text>
+  <text x="936" y="33" text-anchor="end" class="fa" font-size="13" font-weight="600" fill="#FF7B73">کمتر حرف، بیشتر ساختن  &#183;  LESS TALK, MORE BUILDING</text>
+
+  <!-- Card 1: Cinematic Documentaries -->
+  <g transform="translate(20, 48)">
+    <rect x="0" y="0" width="220" height="164" rx="13" fill="url(#cardGrad)" stroke="#273A5C" stroke-width="1.2"/>
+    <rect x="14" y="0.5" width="130" height="2" fill="url(#topHairline)"/>
+    <g transform="translate(26, 28)">
+      <circle cx="0" cy="0" r="13" fill="#23121E" stroke="#E3202A" stroke-width="1.3"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
+        <circle cx="0" cy="0" r="8" fill="none" stroke="#FF6A5A" stroke-width="1.3" stroke-dasharray="3 4"/>
+      </g>
+      <circle cx="0" cy="0" r="2.5" fill="#FFFFFF"/>
+    </g>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#FF7B73">01 &#183; CINEMA</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Science &amp; Tech Docs</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Cinematic short documentaries</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">on physics, space, history &amp;</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">deep-tech in Persian.</text>
+    <rect x="16" y="135" width="124" height="20" rx="6" fill="#1A1221" stroke="#4D2230" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.8" fill="#FDA4AF">ANAMORPHIC &#183; 24FPS</text>
+  </g>
+
+  <!-- Card 2: Navidix AI Gateway -->
+  <g transform="translate(253, 48)">
+    <rect x="0" y="0" width="220" height="164" rx="13" fill="url(#cardGrad)" stroke="#273A5C" stroke-width="1.2"/>
+    <rect x="14" y="0.5" width="130" height="2" fill="url(#topHairline)"/>
+    <g transform="translate(26, 28)">
+      <polygon points="0,-13 11.2,-6.5 11.2,6.5 0,13 -11.2,6.5 -11.2,-6.5" fill="#10203D" stroke="#2B6CFF" stroke-width="1.4"/>
+      <circle cx="0" cy="0" r="3.8" fill="#38BDF8">
+        <animate attributeName="r" values="2.5;4.8;2.5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#7DD3FC">02 &#183; AI GATEWAY</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">444+ Unified Models</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Full-stack studio router for</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">LLM, code, studio photo, SVG,</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">cinema video &amp; Persian TTS.</text>
+    <rect x="16" y="135" width="136" height="20" rx="6" fill="#0F1F3A" stroke="#25487F" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.8" fill="#93C5FD">DJANGO &#183; OPENROUTER</text>
+  </g>
+
+  <!-- Card 3: Practical AI Curriculum -->
+  <g transform="translate(487, 48)">
+    <rect x="0" y="0" width="220" height="164" rx="13" fill="url(#cardGrad)" stroke="#273A5C" stroke-width="1.2"/>
+    <rect x="14" y="0.5" width="130" height="2" fill="url(#topHairline)"/>
+    <g transform="translate(26, 28)">
+      <circle cx="0" cy="0" r="13" fill="#0E2427" stroke="#10B981" stroke-width="1.3"/>
+      <text x="0" y="4" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#6EE7B7">&lt;/&gt;</text>
+    </g>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#6EE7B7">03 &#183; CURRICULUM</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Production Workflows</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Field-tested prompt systems,</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">character consistency &amp; real</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">multi-model pipelines.</text>
+    <rect x="16" y="135" width="136" height="20" rx="6" fill="#0E2424" stroke="#1D5B4B" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.8" fill="#6EE7B7">56 INTERACTIVE PAGES</text>
+  </g>
+
+  <!-- Card 4: Spatial & Motion Web -->
+  <g transform="translate(720, 48)">
+    <rect x="0" y="0" width="220" height="164" rx="13" fill="url(#cardGrad)" stroke="#273A5C" stroke-width="1.2"/>
+    <rect x="14" y="0.5" width="130" height="2" fill="url(#topHairline)"/>
+    <g transform="translate(26, 28)">
+      <circle cx="0" cy="0" r="13" fill="#1B1633" stroke="#8B5CF6" stroke-width="1.3"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="14s" repeatCount="indefinite"/>
+        <rect x="-5.5" y="-5.5" width="11" height="11" rx="2" fill="none" stroke="#C4B5FD" stroke-width="1.3"/>
+      </g>
+    </g>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#C4B5FD">04 &#183; INTERACTIVE</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">3D &amp; Motion Systems</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Three.js WebGL stages, GSAP</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">choreography, bespoke RTL</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">Persian typography &amp; SVG UI.</text>
+    <rect x="16" y="135" width="128" height="20" rx="6" fill="#1A1530" stroke="#4C357D" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.8" fill="#DDD6FE">THREE.JS &#183; WEBGL</text>
+  </g>
+
+  <!-- Bottom Engineering Stack Ribbon -->
+  <rect x="20" y="226" width="920" height="78" rx="13" fill="#0A101E" stroke="#253757" stroke-width="1.2"/>
+  <text x="36" y="248" class="mono" font-size="10.2" font-weight="700" fill="#7D97C2" letter-spacing="1.1">CORE ENGINEERING TOOLCHAIN &amp; RUNTIME</text>
+
+  <g transform="translate(36, 260)" class="mono" font-size="11" font-weight="600">
+    <g transform="translate(0,0)">
+      <rect width="124" height="28" rx="7" fill="#121E36" stroke="#2D4A7C"/>
+      <circle cx="14" cy="14" r="3.2" fill="#38BDF8"/>
+      <text x="24" y="18" fill="#E2EEFF">Python&#183;Django</text>
+    </g>
+    <g transform="translate(132,0)">
+      <rect width="118" height="28" rx="7" fill="#121E36" stroke="#2D4A7C"/>
+      <circle cx="14" cy="14" r="3.2" fill="#FACC15"/>
+      <text x="24" y="18" fill="#E2EEFF">JS &#183; ES2026</text>
+    </g>
+    <g transform="translate(258,0)">
+      <rect width="132" height="28" rx="7" fill="#121E36" stroke="#2D4A7C"/>
+      <circle cx="14" cy="14" r="3.2" fill="#A78BFA"/>
+      <text x="24" y="18" fill="#E2EEFF">Three.js&#183;WebGL</text>
+    </g>
+    <g transform="translate(398,0)">
+      <rect width="122" height="28" rx="7" fill="#121E36" stroke="#2D4A7C"/>
+      <circle cx="14" cy="14" r="3.2" fill="#34D399"/>
+      <text x="24" y="18" fill="#E2EEFF">GSAP &#183; SMIL</text>
+    </g>
+    <g transform="translate(528,0)">
+      <rect width="124" height="28" rx="7" fill="#121E36" stroke="#2D4A7C"/>
+      <circle cx="14" cy="14" r="3.2" fill="#E3202A"/>
+      <text x="24" y="18" fill="#E2EEFF">OpenRouter</text>
+    </g>
+    <g transform="translate(660,0)">
+      <rect width="112" height="28" rx="7" fill="#121E36" stroke="#2D4A7C"/>
+      <circle cx="14" cy="14" r="3.2" fill="#FB7185"/>
+      <text x="24" y="18" fill="#E2EEFF">HTML5&#183;CSS3</text>
+    </g>
+    <g transform="translate(780,0)">
+      <rect width="108" height="28" rx="7" fill="#121E36" stroke="#2D4A7C"/>
+      <circle cx="14" cy="14" r="3.2" fill="#60A5FA"/>
+      <text x="24" y="18" fill="#E2EEFF">Docker&#183;Git</text>
+    </g>
+  </g>
+</svg>

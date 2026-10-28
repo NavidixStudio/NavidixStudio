@@ -198,7 +198,7 @@
     <text x="0" y="11" class="sans" font-size="11.8" font-weight="700" fill="#E6F0FF">Flux 3 &amp; Recraft V4.1 <tspan class="mono" font-size="9.8" font-weight="400" fill="#829BC4">&#183; Studio Realism &amp; Pure SVG</tspan></text>
     <text x="402" y="11" text-anchor="end" class="mono" font-size="11.2" font-weight="700" fill="#6EE7B7">98.0%</text>
     <rect x="0" y="16" width="402" height="6.5" rx="3.2" fill="#121C31"/>
-    <rect x="0" y="16" width="394.0" height="6.5" rx="3.2" fill="url(#bmGrad2)">
+    <rect x="0" y="16" width="394" height="6.5" rx="3.2" fill="url(#bmGrad2)">
       <animate attributeName="opacity" values="0.82;1;0.82" dur="2.9s" repeatCount="indefinite"/>
     </rect>
   </g>

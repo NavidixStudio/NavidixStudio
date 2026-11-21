@@ -69,6 +69,14 @@ I am **Mohammad Navidi**, an independent **AI-Native Full-Stack Systems Builder 
   </tr>
 </table>
 
+### Featured Public Repositories (Open-Source Labs & Architecture)
+
+| Repository | Type | What's Inside |
+| :--- | :---: | :--- |
+| [**`NavidixStudio/navidix-studio`**](https://github.com/NavidixStudio/navidix-studio) | `Architecture` | Full engineering case study & system design of the 470+ model AI OS, 9 workbenches, multi-provider gateway & atomic credit ledger |
+| [**`NavidixStudio/inside-a-3nm-cpu`**](https://github.com/NavidixStudio/inside-a-3nm-cpu) | `MIT · Three.js` | Standalone runnable 3D multi-scale CPU simulator (Foveros chiplets, 5-stage pipeline, 4-bit silicon adder, 3nm GAA transistor & 48×48 FLIR Heat PDE) |
+| [**`NavidixStudio/geometry-of-meaning`**](https://github.com/NavidixStudio/geometry-of-meaning) | `MIT · Three.js` | Standalone runnable 3D LLM internals lab (8D word embeddings, vector algebra, multi-layer Self-Attention & Softmax hallucination explorer) |
+
 ---
 
 ## Inside Navidix Studio — 9 Production Workbenches Built Solo
@@ -147,6 +155,7 @@ I love building ambitious, high-craft AI products, creative tools, and interacti
 - **استودیو یکپارچه‌ی هوش مصنوعی (۴۷۰+ مدل فعال در ۹ میزکار تخصصی):** دستیار صوتی زنده، گفت‌وگو و استدلال عمیق (`Claude Fable 5.2`، `GPT-6.2 Astra`، `Gemini 4 Neon`، `Gemini 4 Carbon`، `DeepSeek V4.1`)، استودیو کامل تصویر و ویدیوی 4K شامل **اتاق فیلم، تدوین، آواتار سخنگو، آپ‌اسکیل 4K و لوگوموشن** (`Flux 3`، `Nano Banana 2.1`، `Gemini Omni 1.2 Flash`، `Seedance 2.0`، `Veo 3.1`، `Recraft V4.1 SVG`)، استودیو صدا و گویندگی فارسی، کد و سایت‌ساز و ایجنت‌های خودمختار.
 - **پلتفرم علمی تعاملی سه‌بعدی ([`navidixstudio.com/explore/`](https://navidixstudio.com/explore/)):** ۷ آزمایشگاه زنده‌ی WebGL/Three.js بدون نیاز به بیلد خارجی — از جمله **درون یک پردازنده‌ی ۳ نانومتری (با دوربین حرارتی زنده‌ی FLIR و ترانزیستور GAA)** و **هندسه‌ی معنا (مکانیسم توجه و ریشه‌ی توهم هوش مصنوعی)**.
 - **آموزش، پژوهش و مستندسازی:** بیش از ۴۰۰ پرامپت آزموده‌شده، خط زمان ۲۷ مکتب هنری، بنچمارک‌های تخصصی مدل‌های ۲۰۲۶ و مستندهای علمی-فناوری در یوتیوب ([`@navidix`](https://youtube.com/@navidix)).
+- **مخازن عمومی و متن‌باز گیت‌هاب:** مستندات کامل معماری در [`navidix-studio`](https://github.com/NavidixStudio/navidix-studio) و کد کامل و قابل اجرای دو آزمایشگاه سه‌بعدی با مجوز MIT در [`inside-a-3nm-cpu`](https://github.com/NavidixStudio/inside-a-3nm-cpu) و [`geometry-of-meaning`](https://github.com/NavidixStudio/geometry-of-meaning).
 
 </div>
 

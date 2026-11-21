@@ -71,7 +71,7 @@
   <circle cx="68" cy="35" r="5" fill="#27C93F"/>
   <rect x="88" y="23" width="166" height="29" rx="6" fill="#0B1220" stroke="#263859" stroke-width="1"/>
   <text x="102" y="41" class="mono" font-size="11.5" font-weight="600" fill="#E2E8F0">pipeline.navidix.ts</text>
-  <text x="518" y="40" text-anchor="end" class="mono" font-size="10.5" fill="#38BDF8">&#9679; SDK v2026.10</text>
+  <text x="518" y="40" text-anchor="end" class="mono" font-size="10.5" fill="#38BDF8">&#9679; SDK v2026.11</text>
 
   <!-- Animated Scanning Execution Bar + Left Active Indicator -->
   <g>
@@ -98,29 +98,29 @@
   </g>
   <line x1="54" y1="53" x2="54" y2="324" stroke="#1B2942" stroke-width="1"/>
 
-  <!-- Always-Crisp Syntax-Highlighted TypeScript Pipeline (2026 Flagship Models) -->
+  <!-- Always-Crisp Syntax-Highlighted TypeScript Pipeline (Nov 2026 Flagship Models) -->
   <g class="mono" font-size="11.5">
-    <text x="64" y="76"><tspan class="kw">import</tspan> <tspan class="txt">{ NavidixStudio }</tspan> <tspan class="kw">from</tspan> <tspan class="str">"@navidix/ai-gateway"</tspan><tspan class="txt">;</tspan></text>
-    <text x="64" y="95"><tspan class="kw">const</tspan> <tspan class="txt">nvx = </tspan><tspan class="kw">new</tspan> <tspan class="fn">NavidixStudio</tspan><tspan class="txt">({ </tspan><tspan class="prp">models</tspan><tspan class="txt">: </tspan><tspan class="num">444</tspan><tspan class="txt">, </tspan><tspan class="prp">lang</tspan><tspan class="txt">: </tspan><tspan class="str">"fa"</tspan><tspan class="txt"> });</tspan></text>
+    <text x="64" y="76"><tspan class="kw">import</tspan> <tspan class="txt">{ NavidixOS }</tspan> <tspan class="kw">from</tspan> <tspan class="str">"@navidix/ai-gateway"</tspan><tspan class="txt">;</tspan></text>
+    <text x="64" y="95"><tspan class="kw">const</tspan> <tspan class="txt">nvx = </tspan><tspan class="kw">new</tspan> <tspan class="fn">NavidixOS</tspan><tspan class="txt">({ </tspan><tspan class="prp">models</tspan><tspan class="txt">: </tspan><tspan class="num">470</tspan><tspan class="txt">, </tspan><tspan class="prp">rooms</tspan><tspan class="txt">: </tspan><tspan class="num">9</tspan><tspan class="txt"> });</tspan></text>
 
     <g class="stage-a">
-      <text x="64" y="114" class="cmt">// 1. Agentic Architecture, Reasoning &amp; Security Audit</text>
-      <text x="64" y="133"><tspan class="kw">const</tspan> <tspan class="txt">script = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">reason</tspan><tspan class="txt">({</tspan></text>
-      <text x="80" y="152"><tspan class="prp">lead</tspan><tspan class="txt">: [</tspan><tspan class="str">"claude-sonnet-5.5"</tspan><tspan class="txt">, </tspan><tspan class="str">"gpt-6-astra"</tspan><tspan class="txt">],</tspan></text>
-      <text x="80" y="171"><tspan class="prp">audit</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-4-argon"</tspan><tspan class="txt">, </tspan><tspan class="prp">fast</tspan><tspan class="txt">: </tspan><tspan class="str">"deepseek-v4.1-flash"</tspan></text>
+      <text x="64" y="114" class="cmt">// 1. Frontier Reasoning, Coding Agents &amp; Deep Audit</text>
+      <text x="64" y="133"><tspan class="kw">const</tspan> <tspan class="txt">plan = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">reason</tspan><tspan class="txt">({</tspan></text>
+      <text x="80" y="152"><tspan class="prp">lead</tspan><tspan class="txt">: [</tspan><tspan class="str">"claude-fable-5.2"</tspan><tspan class="txt">, </tspan><tspan class="str">"gpt-6.2-astra"</tspan><tspan class="txt">],</tspan></text>
+      <text x="80" y="171"><tspan class="prp">code</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-4-neon"</tspan><tspan class="txt">, </tspan><tspan class="prp">fast</tspan><tspan class="txt">: </tspan><tspan class="str">"deepseek-v4.1"</tspan></text>
       <text x="64" y="190"><tspan class="txt">});</tspan></text>
     </g>
 
     <g class="stage-b">
-      <text x="64" y="209" class="cmt">// 2. Studio Keyframes, 100% Face-Lock &amp; Pure Vector SVG</text>
+      <text x="64" y="209" class="cmt">// 2. 4K Studio Photo, Face-Lock &amp; Pure Vector SVG</text>
       <text x="64" y="228"><tspan class="kw">const</tspan> <tspan class="txt">art = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">imagine</tspan><tspan class="txt">({ </tspan><tspan class="prp">raw</tspan><tspan class="txt">: </tspan><tspan class="str">"flux-3-image"</tspan><tspan class="txt">,</tspan></text>
-      <text x="80" y="247"><tspan class="prp">edit</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-nano-banana-2.1"</tspan><tspan class="txt">, </tspan><tspan class="prp">svg</tspan><tspan class="txt">: </tspan><tspan class="str">"recraft-v4.1"</tspan><tspan class="txt"> });</tspan></text>
+      <text x="80" y="247"><tspan class="prp">edit</tspan><tspan class="txt">: </tspan><tspan class="str">"nano-banana-2.1"</tspan><tspan class="txt">, </tspan><tspan class="prp">svg</tspan><tspan class="txt">: </tspan><tspan class="str">"recraft-v4.1"</tspan><tspan class="txt"> });</tspan></text>
     </g>
 
     <g class="stage-c">
-      <text x="64" y="266" class="cmt">// 3. Anamorphic Cinema + Native Lip-Synced Persian Voice</text>
-      <text x="64" y="285"><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">direct</tspan><tspan class="txt">({ </tspan><tspan class="prp">cinema</tspan><tspan class="txt">: [</tspan><tspan class="str">"google-veo-3.1"</tspan><tspan class="txt">, </tspan><tspan class="str">"kling-o1"</tspan><tspan class="txt">],</tspan></text>
-      <text x="80" y="304"><tspan class="prp">physics</tspan><tspan class="txt">: </tspan><tspan class="str">"flux-3-video"</tspan><tspan class="txt">, </tspan><tspan class="prp">tts</tspan><tspan class="txt">: </tspan><tspan class="str">"navidix-persian-tts"</tspan><tspan class="txt"> });</tspan></text>
+      <text x="64" y="266" class="cmt">// 3. 4K Cinema Video, Lip-Sync Avatars &amp; Persian Voice</text>
+      <text x="64" y="285"><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">direct</tspan><tspan class="txt">({ </tspan><tspan class="prp">cinema</tspan><tspan class="txt">: [</tspan><tspan class="str">"omni-1.2"</tspan><tspan class="txt">, </tspan><tspan class="str">"seedance-2.0"</tspan><tspan class="txt">],</tspan></text>
+      <text x="80" y="304"><tspan class="prp">voice</tspan><tspan class="txt">: </tspan><tspan class="str">"veo-3.1"</tspan><tspan class="txt">, </tspan><tspan class="prp">tts</tspan><tspan class="txt">: </tspan><tspan class="str">"navidix-persian-tts"</tspan><tspan class="txt"> });</tspan></text>
     </g>
     <rect x="468" y="292" width="6.5" height="14" rx="1.2" fill="#38BDF8" class="cur-ide"/>
   </g>
@@ -179,21 +179,21 @@
   <g transform="translate(670, 72)">
     <rect x="0" y="0" width="172" height="52" rx="10" fill="#101D36" stroke="#2B6CFF" stroke-width="1.2"/>
     <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#E0EEFF">LLM &amp; Agentic Code</text>
-    <text x="12" y="38" class="mono" font-size="9.7" fill="#7DD3FC">Sonnet 5.5 &#183; Astra &#183; Argon</text>
+    <text x="12" y="38" class="mono" font-size="9.5" fill="#7DD3FC">Fable 5.2 &#183; Astra &#183; Neon</text>
   </g>
 
   <!-- Engine Node 2: Image & Vector -->
   <g transform="translate(670, 140)">
     <rect x="0" y="0" width="172" height="52" rx="10" fill="#0E2329" stroke="#10B981" stroke-width="1.2"/>
     <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#D1FAE5">Studio Image &amp; SVG</text>
-    <text x="12" y="38" class="mono" font-size="9.7" fill="#6EE7B7">Flux 3 &#183; Nano Banana 2.1</text>
+    <text x="12" y="38" class="mono" font-size="9.5" fill="#6EE7B7">Flux 3 &#183; Nano Banana 2.1</text>
   </g>
 
   <!-- Engine Node 3: Cinema Video -->
   <g transform="translate(670, 208)">
     <rect x="0" y="0" width="172" height="52" rx="10" fill="#231220" stroke="#E3202A" stroke-width="1.2"/>
-    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#FFE4E6">Cinema &amp; Physics</text>
-    <text x="12" y="38" class="mono" font-size="9.7" fill="#FDA4AF">Veo 3.1 &#183; Flux 3 &#183; Kling O1</text>
+    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#FFE4E6">Cinema &amp; Avatars</text>
+    <text x="12" y="38" class="mono" font-size="9.5" fill="#FDA4AF">Omni 1.2 &#183; Seedance &#183; Veo</text>
   </g>
 
   <!-- Engine Node 4: Persian Audio -->

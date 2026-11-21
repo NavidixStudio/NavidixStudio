@@ -1,4 +1,4 @@
-Set-StrictMode -Version Latest
+﻿Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -168,12 +168,12 @@ $heroSvg = @"
 
   <!-- ==================== LEFT EDITORIAL & CODE COLUMN ==================== -->
   <!-- Eyebrow Pill -->
-  <rect x="44" y="28" width="322" height="26" rx="13" fill="#13203B" fill-opacity="0.88" stroke="#365387" stroke-width="1"/>
+  <rect x="44" y="28" width="386" height="26" rx="13" fill="#13203B" fill-opacity="0.88" stroke="#365387" stroke-width="1"/>
   <circle cx="60" cy="41" r="4" fill="#38BDF8">
     <animate attributeName="r" values="3.2;4.6;3.2" dur="2.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
   </circle>
-  <text x="73" y="45" class="mono" font-size="11" font-weight="600" fill="#B9D5FF" letter-spacing="1.2">$(Esc $D.eyebrow)</text>
+  <text x="73" y="45" class="mono" font-size="10.4" font-weight="600" fill="#B9D5FF" letter-spacing="1.0">$(Esc $D.eyebrow)</text>
 
   <!-- Official Metallic Wordmark + Persian Brand Tag -->
   <image href="data:image/webp;base64,$WordB64" x="44" y="72" width="218" height="34" preserveAspectRatio="xMinYMid meet"/>
@@ -190,41 +190,41 @@ $heroSvg = @"
   <text x="58" y="197" class="mono" font-size="13" font-weight="700" fill="#FF5A5F">nvx:~`$</text>
 
   <g transform="translate(116, 197)" class="mono" font-size="13" fill="#E6F0FF">
-    <text x="0" y="0" class="role-line r1">role --founder "Creative Technologist &amp; AI Director"</text>
-    <text x="0" y="0" class="role-line r2">gateway.sync({ models: 444, engine: "Navidix 2026" })</text>
-    <text x="0" y="0" class="role-line r3">direct --cinema "Science, Space &amp; Tech Docs (FA)"</text>
+    <text x="0" y="0" class="role-line r1">role --solo-founder "AI Systems Builder &amp; Director"</text>
+    <text x="0" y="0" class="role-line r2">studio.mount({ models: 470, workbenches: 9, os: "PWA" })</text>
+    <text x="0" y="0" class="role-line r3">webgl.launch(["3nm-cpu-flir", "geometry-of-meaning"])</text>
     <text x="0" y="0" class="role-line r4">echo "From One Sentence, To One Frame &#183; $(Esc $D.motto_fa)"</text>
   </g>
   <rect x="564" y="183" width="7" height="17" rx="1.5" fill="#38BDF8" class="cursor-blink"/>
 
   <!-- Editorial Manifesto -->
-  <text x="44" y="242" class="sans" font-size="14" font-weight="500" fill="#D5E3FA">$(Esc $D.bio_line_1)</text>
+  <text x="44" y="242" class="sans" font-size="13.8" font-weight="500" fill="#D5E3FA">$(Esc $D.bio_line_1)</text>
   <text x="44" y="265" class="sans" font-size="13.5" fill="#93AACF">$(Esc $D.bio_line_2)  <tspan class="fa" fill="#FF7B73" font-weight="600">($(Esc $D.less_talk_fa))</tspan></text>
 
   <!-- Bottom 4 HUD Telemetry Pods -->
   <g transform="translate(44, 288)">
     <rect x="0" y="0" width="126" height="66" rx="11" fill="#0D1628" fill-opacity="0.88" stroke="#2B3E63" stroke-width="1"/>
     <line x1="12" y1="1" x2="64" y2="1" stroke="#E3202A" stroke-width="2"/>
-    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#FFFFFF">444+</text>
+    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#FFFFFF">470+</text>
     <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">ACTIVE MODELS</text>
   </g>
   <g transform="translate(182, 288)">
     <rect x="0" y="0" width="126" height="66" rx="11" fill="#0D1628" fill-opacity="0.88" stroke="#2B3E63" stroke-width="1"/>
     <line x1="12" y1="1" x2="64" y2="1" stroke="#38BDF8" stroke-width="2"/>
-    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#8FDBFF">1,800+</text>
-    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">STUDIO COMMITS</text>
+    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#8FDBFF">1,880+</text>
+    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">SOLO COMMITS</text>
   </g>
   <g transform="translate(320, 288)">
     <rect x="0" y="0" width="126" height="66" rx="11" fill="#0D1628" fill-opacity="0.88" stroke="#2B3E63" stroke-width="1"/>
     <line x1="12" y1="1" x2="64" y2="1" stroke="#A78BFA" stroke-width="2"/>
-    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#DDD6FE">93</text>
-    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">NVX JS MODULES</text>
+    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#DDD6FE">9 OS</text>
+    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">WORKBENCHES</text>
   </g>
   <g transform="translate(458, 288)">
     <rect x="0" y="0" width="126" height="66" rx="11" fill="#0D1628" fill-opacity="0.88" stroke="#2B3E63" stroke-width="1"/>
     <line x1="12" y1="1" x2="64" y2="1" stroke="#34D399" stroke-width="2"/>
-    <text x="14" y="31" class="sans" font-size="21" font-weight="800" fill="#6EE7B7">FA &#183; EN</text>
-    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">PERSIAN AI LAB</text>
+    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#6EE7B7">7 × 3D</text>
+    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">WEBGL LABS</text>
   </g>
 
   <!-- ==================== RIGHT HEXAGONAL APERTURE STAGE ==================== -->
@@ -375,7 +375,7 @@ $termSvg = @"
   <circle cx="68" cy="35" r="5" fill="#27C93F"/>
   <rect x="88" y="23" width="166" height="29" rx="6" fill="#0B1220" stroke="#263859" stroke-width="1"/>
   <text x="102" y="41" class="mono" font-size="11.5" font-weight="600" fill="#E2E8F0">pipeline.navidix.ts</text>
-  <text x="518" y="40" text-anchor="end" class="mono" font-size="10.5" fill="#38BDF8">&#9679; SDK v2026.10</text>
+  <text x="518" y="40" text-anchor="end" class="mono" font-size="10.5" fill="#38BDF8">&#9679; SDK v2026.11</text>
 
   <!-- Animated Scanning Execution Bar + Left Active Indicator -->
   <g>
@@ -402,29 +402,29 @@ $termSvg = @"
   </g>
   <line x1="54" y1="53" x2="54" y2="324" stroke="#1B2942" stroke-width="1"/>
 
-  <!-- Always-Crisp Syntax-Highlighted TypeScript Pipeline (2026 Flagship Models) -->
+  <!-- Always-Crisp Syntax-Highlighted TypeScript Pipeline (Nov 2026 Flagship Models) -->
   <g class="mono" font-size="11.5">
-    <text x="64" y="76"><tspan class="kw">import</tspan> <tspan class="txt">{ NavidixStudio }</tspan> <tspan class="kw">from</tspan> <tspan class="str">"@navidix/ai-gateway"</tspan><tspan class="txt">;</tspan></text>
-    <text x="64" y="95"><tspan class="kw">const</tspan> <tspan class="txt">nvx = </tspan><tspan class="kw">new</tspan> <tspan class="fn">NavidixStudio</tspan><tspan class="txt">({ </tspan><tspan class="prp">models</tspan><tspan class="txt">: </tspan><tspan class="num">444</tspan><tspan class="txt">, </tspan><tspan class="prp">lang</tspan><tspan class="txt">: </tspan><tspan class="str">"fa"</tspan><tspan class="txt"> });</tspan></text>
+    <text x="64" y="76"><tspan class="kw">import</tspan> <tspan class="txt">{ NavidixOS }</tspan> <tspan class="kw">from</tspan> <tspan class="str">"@navidix/ai-gateway"</tspan><tspan class="txt">;</tspan></text>
+    <text x="64" y="95"><tspan class="kw">const</tspan> <tspan class="txt">nvx = </tspan><tspan class="kw">new</tspan> <tspan class="fn">NavidixOS</tspan><tspan class="txt">({ </tspan><tspan class="prp">models</tspan><tspan class="txt">: </tspan><tspan class="num">470</tspan><tspan class="txt">, </tspan><tspan class="prp">rooms</tspan><tspan class="txt">: </tspan><tspan class="num">9</tspan><tspan class="txt"> });</tspan></text>
 
     <g class="stage-a">
-      <text x="64" y="114" class="cmt">// 1. Agentic Architecture, Reasoning &amp; Security Audit</text>
-      <text x="64" y="133"><tspan class="kw">const</tspan> <tspan class="txt">script = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">reason</tspan><tspan class="txt">({</tspan></text>
-      <text x="80" y="152"><tspan class="prp">lead</tspan><tspan class="txt">: [</tspan><tspan class="str">"claude-sonnet-5.5"</tspan><tspan class="txt">, </tspan><tspan class="str">"gpt-6-astra"</tspan><tspan class="txt">],</tspan></text>
-      <text x="80" y="171"><tspan class="prp">audit</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-4-argon"</tspan><tspan class="txt">, </tspan><tspan class="prp">fast</tspan><tspan class="txt">: </tspan><tspan class="str">"deepseek-v4.1-flash"</tspan></text>
+      <text x="64" y="114" class="cmt">// 1. Frontier Reasoning, Coding Agents &amp; Deep Audit</text>
+      <text x="64" y="133"><tspan class="kw">const</tspan> <tspan class="txt">plan = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">reason</tspan><tspan class="txt">({</tspan></text>
+      <text x="80" y="152"><tspan class="prp">lead</tspan><tspan class="txt">: [</tspan><tspan class="str">"claude-fable-5.2"</tspan><tspan class="txt">, </tspan><tspan class="str">"gpt-6.2-astra"</tspan><tspan class="txt">],</tspan></text>
+      <text x="80" y="171"><tspan class="prp">code</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-4-neon"</tspan><tspan class="txt">, </tspan><tspan class="prp">fast</tspan><tspan class="txt">: </tspan><tspan class="str">"deepseek-v4.1"</tspan></text>
       <text x="64" y="190"><tspan class="txt">});</tspan></text>
     </g>
 
     <g class="stage-b">
-      <text x="64" y="209" class="cmt">// 2. Studio Keyframes, 100% Face-Lock &amp; Pure Vector SVG</text>
+      <text x="64" y="209" class="cmt">// 2. 4K Studio Photo, Face-Lock &amp; Pure Vector SVG</text>
       <text x="64" y="228"><tspan class="kw">const</tspan> <tspan class="txt">art = </tspan><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">imagine</tspan><tspan class="txt">({ </tspan><tspan class="prp">raw</tspan><tspan class="txt">: </tspan><tspan class="str">"flux-3-image"</tspan><tspan class="txt">,</tspan></text>
-      <text x="80" y="247"><tspan class="prp">edit</tspan><tspan class="txt">: </tspan><tspan class="str">"gemini-nano-banana-2.1"</tspan><tspan class="txt">, </tspan><tspan class="prp">svg</tspan><tspan class="txt">: </tspan><tspan class="str">"recraft-v4.1"</tspan><tspan class="txt"> });</tspan></text>
+      <text x="80" y="247"><tspan class="prp">edit</tspan><tspan class="txt">: </tspan><tspan class="str">"nano-banana-2.1"</tspan><tspan class="txt">, </tspan><tspan class="prp">svg</tspan><tspan class="txt">: </tspan><tspan class="str">"recraft-v4.1"</tspan><tspan class="txt"> });</tspan></text>
     </g>
 
     <g class="stage-c">
-      <text x="64" y="266" class="cmt">// 3. Anamorphic Cinema + Native Lip-Synced Persian Voice</text>
-      <text x="64" y="285"><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">direct</tspan><tspan class="txt">({ </tspan><tspan class="prp">cinema</tspan><tspan class="txt">: [</tspan><tspan class="str">"google-veo-3.1"</tspan><tspan class="txt">, </tspan><tspan class="str">"kling-o1"</tspan><tspan class="txt">],</tspan></text>
-      <text x="80" y="304"><tspan class="prp">physics</tspan><tspan class="txt">: </tspan><tspan class="str">"flux-3-video"</tspan><tspan class="txt">, </tspan><tspan class="prp">tts</tspan><tspan class="txt">: </tspan><tspan class="str">"navidix-persian-tts"</tspan><tspan class="txt"> });</tspan></text>
+      <text x="64" y="266" class="cmt">// 3. 4K Cinema Video, Lip-Sync Avatars &amp; Persian Voice</text>
+      <text x="64" y="285"><tspan class="kw">await</tspan> <tspan class="txt">nvx.</tspan><tspan class="fn">direct</tspan><tspan class="txt">({ </tspan><tspan class="prp">cinema</tspan><tspan class="txt">: [</tspan><tspan class="str">"omni-1.2"</tspan><tspan class="txt">, </tspan><tspan class="str">"seedance-2.0"</tspan><tspan class="txt">],</tspan></text>
+      <text x="80" y="304"><tspan class="prp">voice</tspan><tspan class="txt">: </tspan><tspan class="str">"veo-3.1"</tspan><tspan class="txt">, </tspan><tspan class="prp">tts</tspan><tspan class="txt">: </tspan><tspan class="str">"navidix-persian-tts"</tspan><tspan class="txt"> });</tspan></text>
     </g>
     <rect x="468" y="292" width="6.5" height="14" rx="1.2" fill="#38BDF8" class="cur-ide"/>
   </g>
@@ -483,21 +483,21 @@ $termSvg = @"
   <g transform="translate(670, 72)">
     <rect x="0" y="0" width="172" height="52" rx="10" fill="#101D36" stroke="#2B6CFF" stroke-width="1.2"/>
     <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#E0EEFF">LLM &amp; Agentic Code</text>
-    <text x="12" y="38" class="mono" font-size="9.7" fill="#7DD3FC">Sonnet 5.5 &#183; Astra &#183; Argon</text>
+    <text x="12" y="38" class="mono" font-size="9.5" fill="#7DD3FC">Fable 5.2 &#183; Astra &#183; Neon</text>
   </g>
 
   <!-- Engine Node 2: Image & Vector -->
   <g transform="translate(670, 140)">
     <rect x="0" y="0" width="172" height="52" rx="10" fill="#0E2329" stroke="#10B981" stroke-width="1.2"/>
     <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#D1FAE5">Studio Image &amp; SVG</text>
-    <text x="12" y="38" class="mono" font-size="9.7" fill="#6EE7B7">Flux 3 &#183; Nano Banana 2.1</text>
+    <text x="12" y="38" class="mono" font-size="9.5" fill="#6EE7B7">Flux 3 &#183; Nano Banana 2.1</text>
   </g>
 
   <!-- Engine Node 3: Cinema Video -->
   <g transform="translate(670, 208)">
     <rect x="0" y="0" width="172" height="52" rx="10" fill="#231220" stroke="#E3202A" stroke-width="1.2"/>
-    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#FFE4E6">Cinema &amp; Physics</text>
-    <text x="12" y="38" class="mono" font-size="9.7" fill="#FDA4AF">Veo 3.1 &#183; Flux 3 &#183; Kling O1</text>
+    <text x="12" y="21" class="sans" font-size="12" font-weight="700" fill="#FFE4E6">Cinema &amp; Avatars</text>
+    <text x="12" y="38" class="mono" font-size="9.5" fill="#FDA4AF">Omni 1.2 &#183; Seedance &#183; Veo</text>
   </g>
 
   <!-- Engine Node 4: Persian Audio -->
@@ -584,13 +584,13 @@ $archSvg = @"
         <animate attributeName="r" values="2.5;4.8;2.5" dur="2s" repeatCount="indefinite"/>
       </circle>
     </g>
-    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#7DD3FC">02 &#183; AI GATEWAY</text>
-    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">444+ Unified Models</text>
-    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Full-stack studio router for</text>
-    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">LLM, code, studio photo, SVG,</text>
-    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">cinema video &amp; Persian TTS.</text>
-    <rect x="16" y="135" width="136" height="20" rx="6" fill="#0F1F3A" stroke="#25487F" stroke-width="1"/>
-    <text x="24" y="149" class="mono" font-size="9.8" fill="#93C5FD">DJANGO &#183; OPENROUTER</text>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#7DD3FC">02 &#183; AI OS</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">470+ Unified Models</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">9 workbenches: Voice, Chat,</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">Film Room, Avatars, 4K Video,</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">Audio TTS, Code &amp; AI Agents.</text>
+    <rect x="16" y="135" width="146" height="20" rx="6" fill="#0F1F3A" stroke="#25487F" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.6" fill="#93C5FD">66 SERVICES &#183; LIVE PWA</text>
   </g>
 
   <!-- Card 3: Practical AI Curriculum -->
@@ -621,13 +621,13 @@ $archSvg = @"
         <rect x="-5.5" y="-5.5" width="11" height="11" rx="2" fill="none" stroke="#C4B5FD" stroke-width="1.3"/>
       </g>
     </g>
-    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#C4B5FD">04 &#183; INTERACTIVE</text>
-    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">3D &amp; Motion Systems</text>
-    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Three.js WebGL stages, GSAP</text>
-    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">choreography, bespoke RTL</text>
-    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">Persian typography &amp; SVG UI.</text>
-    <rect x="16" y="135" width="128" height="20" rx="6" fill="#1A1530" stroke="#4C357D" stroke-width="1"/>
-    <text x="24" y="149" class="mono" font-size="9.8" fill="#DDD6FE">THREE.JS &#183; WEBGL</text>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#C4B5FD">04 &#183; 3D LABS</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Interactive Science 3D</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">7 zero-build Three.js WebGL</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">labs: 3nm CPU + FLIR PDE,</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">LLM Attention, Relativity.</text>
+    <rect x="16" y="135" width="144" height="20" rx="6" fill="#1A1530" stroke="#4C357D" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.6" fill="#DDD6FE">7 LABS &#183; THREE.JS PBR</text>
   </g>
 
   <!-- Bottom Engineering Stack Ribbon -->
@@ -760,7 +760,7 @@ $($gridCells.ToString())
     <animate attributeName="x" values="32;440;32" dur="6.8s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="36" y="184" class="mono" font-size="10.4" fill="#8EA7CE">FE: <tspan fill="#FFFFFF" font-weight="700">1,042</tspan>  &#183;  AI-GW: <tspan fill="#FFFFFF" font-weight="700">413</tspan>  &#183;  CORE: <tspan fill="#FFFFFF" font-weight="700">349</tspan>  commits</text>
+  <text x="36" y="184" class="mono" font-size="10.4" fill="#8EA7CE">FE: <tspan fill="#FFFFFF" font-weight="700">1,326</tspan>  &#183;  AI-GW: <tspan fill="#FFFFFF" font-weight="700">553</tspan>  &#183;  TOTAL: <tspan fill="#FFFFFF" font-weight="700">1,879+</tspan> solo commits</text>
   <g transform="translate(362, 174)">
     <text x="-8" y="10" text-anchor="end" class="mono" font-size="9.5" fill="#6F88B0">LOAD</text>
     <rect x="0" y="1" width="9" height="9" rx="2" fill="#131E34"/>
@@ -769,11 +769,11 @@ $($gridCells.ToString())
     <rect x="39" y="1" width="9" height="9" rx="2" fill="#E3202A"/>
     <rect x="52" y="1" width="9" height="9" rx="2" fill="#FF5E57"/>
   </g>
-  <text x="36" y="203" class="mono" font-size="10" fill="#647FA8">23 Deep-Dive Benchmarks &#183; 56 Web Lessons &#183; 93 NVX Modules</text>
+  <text x="36" y="203" class="mono" font-size="10" fill="#647FA8">66 Backend Services &#183; 9 AI Workbenches &#183; 7 3D WebGL Labs</text>
 
   <rect x="500" y="18" width="442" height="200" rx="13" fill="#0B1222" stroke="#243656" stroke-width="1.2"/>
   <text x="518" y="42" class="mono" font-size="11" font-weight="700" fill="#B9D5FF" letter-spacing="0.9">NAVIDIX 2026 FLAGSHIP AI INDEX</text>
-  <text x="924" y="42" text-anchor="end" class="mono" font-size="10.2" fill="#7DD3FC">VERIFIED &#183; OCT 2026</text>
+  <text x="924" y="42" text-anchor="end" class="mono" font-size="10.2" fill="#7DD3FC">VERIFIED &#183; NOV 2026</text>
   <line x1="500" y1="53" x2="942" y2="53" stroke="#1E2E4A" stroke-width="1"/>
 
 $($benchDraw.ToString())

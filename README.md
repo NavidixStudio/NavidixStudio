@@ -38,22 +38,22 @@ I am **Mohammad Navidi**, an independent **AI-Native Full-Stack Systems Builder 
       <sub>Chat, Voice, 4K Photo, Cinema Video, Talking Avatars, Film Room, Persian TTS, Code &amp; Agents</sub>
     </td>
     <td width="50%" align="center">
-      <a href="https://navidixstudio.com/explore/inside-a-cpu/">
+      <a href="https://navidixstudio.com/explore/inside-a-cpu/?lang=en">
         <img src="./assets/showcase/lab-3nm-cpu-package.png" alt="Inside a 3nm CPU — Procedural 3D Ultra 9 Package in Three.js" />
       </a>
       <br/>
-      <b><a href="https://navidixstudio.com/explore/inside-a-cpu/">Inside a 3nm CPU — Multi-Scale 3D Hardware Lab</a></b>
+      <b><a href="https://navidixstudio.com/explore/inside-a-cpu/?lang=en">Inside a 3nm CPU — Multi-Scale 3D Hardware Lab</a></b>
       <br/>
       <sub>15,000,000× zoom: Foveros 3D Chiplets → 5-Stage Pipeline → 4-Bit Silicon Adder → 3nm GAA Gate</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://navidixstudio.com/explore/inside-a-cpu/?c=thermal">
+      <a href="https://navidixstudio.com/explore/inside-a-cpu/?c=thermal&lang=en">
         <img src="./assets/showcase/lab-3nm-cpu-flir.png" alt="Real-Time 48x48 2D Heat PDE & Ironbow FLIR Thermal Map on 3nm Die" />
       </a>
       <br/>
-      <b><a href="https://navidixstudio.com/explore/inside-a-cpu/?c=thermal">Live 48×48 2D Heat PDE &amp; Ironbow FLIR Camera</a></b>
+      <b><a href="https://navidixstudio.com/explore/inside-a-cpu/?c=thermal&lang=en">Live 48×48 2D Heat PDE &amp; Ironbow FLIR Camera</a></b>
       <br/>
       <sub>Real CMOS power physics (<code>P = α·C·V²·f + I_leak(T)·V</code>) &amp; automatic 100°C PROCHOT throttling</sub>
     </td>

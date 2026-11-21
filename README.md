@@ -93,13 +93,13 @@ Instead of building a single-purpose wrapper, I engineered an integrated creativ
 
 ```mermaid
 flowchart LR
-  U["Bilingual Web PWA (EN/FA)<br/>& Telegram Bot (@navidix_bot)"] --> FE["9 Creative Workbenches<br/>Voice · Chat · Film · Video · Audio · Code · Agents"]
-  U --> LAB["7 Zero-Build 3D WebGL Labs<br/>Procedural PBR · Physics PDEs · Three.js"]
-  FE --> GW["Unified AI Gateway & Router<br/>470+ Models · Health Probes · Failover"]
-  GW --> LEDGER["Atomic Credit Ledger & Billing<br/>Reserve · Settle · Auto-Refund · Subscriptions"]
-  GW --> LLM["Frontier LLMs & Code<br/>Claude 5.2 · GPT-6.2 · Gemini 4 · DeepSeek V4.1"]
-  GW --> VIS["4K Image, Vector & Cinema<br/>Flux 3 · Nano Banana 2.1 · Omni 1.2 · Seedance · Veo 3.1"]
-  GW --> AUD["Voice, Lip-Sync & Audio<br/>Persian TTS · Talking Avatars · Music · SFX"]
+  U["Web PWA and Telegram Bot"] --> FE["9 AI Workbenches"]
+  U --> LAB["7 Interactive 3D WebGL Labs"]
+  FE --> GW["Unified AI Gateway - 470+ Models"]
+  GW --> LEDGER["Atomic Credit Ledger and Auto-Refund"]
+  GW --> LLM["LLMs: Claude 5.2 - GPT-6.2 - Gemini 4"]
+  GW --> VIS["4K Photo and Cinema: Flux 3 - Omni 1.2 - Veo 3.1"]
+  GW --> AUD["Persian TTS - Voice Clone - Music"]
 ```
 
 <div align="center">

@@ -162,7 +162,7 @@
     <animate attributeName="x" values="32;440;32" dur="6.8s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="36" y="184" class="mono" font-size="10.4" fill="#8EA7CE">FE: <tspan fill="#FFFFFF" font-weight="700">1,326</tspan>  &#183;  AI-GW: <tspan fill="#FFFFFF" font-weight="700">553</tspan>  &#183;  TOTAL: <tspan fill="#FFFFFF" font-weight="700">1,879+</tspan> solo commits</text>
+  <text x="36" y="184" class="mono" font-size="10.2" fill="#8EA7CE">FE: <tspan fill="#FFFFFF" font-weight="700">1,326</tspan>  &#183;  GW: <tspan fill="#FFFFFF" font-weight="700">553</tspan>  &#183;  <tspan fill="#FFFFFF" font-weight="700">1,879+</tspan> commits</text>
   <g transform="translate(362, 174)">
     <text x="-8" y="10" text-anchor="end" class="mono" font-size="9.5" fill="#6F88B0">LOAD</text>
     <rect x="0" y="1" width="9" height="9" rx="2" fill="#131E34"/>

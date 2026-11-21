@@ -58,24 +58,26 @@ I am **Mohammad Navidi**, an independent **AI-Native Full-Stack Systems Builder 
       <sub>Real CMOS power physics (<code>P = α·C·V²·f + I_leak(T)·V</code>) &amp; automatic 100°C PROCHOT throttling</sub>
     </td>
     <td width="50%" align="center">
-      <a href="https://navidixstudio.com/explore/geometry-of-meaning/">
+      <a href="https://navidixstudio.com/explore/geometry-of-meaning/?lang=en">
         <img src="./assets/showcase/lab-geometry-meaning.png" alt="The Geometry of Meaning — Interactive 3D Word Embeddings & Self-Attention Lab" />
       </a>
       <br/>
-      <b><a href="https://navidixstudio.com/explore/geometry-of-meaning/">The Geometry of Meaning — 3D LLM Internals Lab</a></b>
+      <b><a href="https://navidixstudio.com/explore/geometry-of-meaning/?lang=en">The Geometry of Meaning — 3D LLM Internals Lab</a></b>
       <br/>
-      <sub>8D Word Embeddings, Vector Algebra, Live Self-Attention Rays, Softmax Temperature &amp; Top-P</sub>
+      <sub>Bilingual EN/FA · 8D Word Embeddings, Vector Algebra, Live Self-Attention Rays &amp; Softmax</sub>
     </td>
   </tr>
 </table>
 
-### Featured Public Repositories (Open-Source Labs & Architecture)
+### Featured Public Repositories (5 Flagship Showcase & MIT Open-Source Repos)
 
-| Repository | Type | What's Inside |
+| Repository | Type | What's Inside & Instant Demo |
 | :--- | :---: | :--- |
-| [**`NavidixStudio/navidix-studio`**](https://github.com/NavidixStudio/navidix-studio) | `Architecture` | Full engineering case study & system design of the 470+ model AI OS, 9 workbenches, multi-provider gateway & atomic credit ledger |
-| [**`NavidixStudio/inside-a-3nm-cpu`**](https://github.com/NavidixStudio/inside-a-3nm-cpu) | `MIT · Three.js` | Standalone runnable 3D multi-scale CPU simulator (Foveros chiplets, 5-stage pipeline, 4-bit silicon adder, 3nm GAA transistor & 48×48 FLIR Heat PDE) |
-| [**`NavidixStudio/geometry-of-meaning`**](https://github.com/NavidixStudio/geometry-of-meaning) | `MIT · Three.js` | Standalone runnable 3D LLM internals lab (8D word embeddings, vector algebra, multi-layer Self-Attention & Softmax hallucination explorer) |
+| [**`NavidixStudio/navidix-studio`**](https://github.com/NavidixStudio/navidix-studio) | `Architecture` | Complete visual product tour, system architecture & 1,880+ solo commit milestones (`MILESTONES.md`) of the 470+ model AI OS |
+| [**`NavidixStudio/inside-a-3nm-cpu`**](https://github.com/NavidixStudio/inside-a-3nm-cpu) | `MIT · EN/FA` | Bilingual 3D multi-scale CPU simulator (Foveros chiplets, 4-bit adder, 3nm GAA transistor & 48×48 FLIR PDE) · [**Live Demo**](https://navidixstudio.github.io/inside-a-3nm-cpu/) |
+| [**`NavidixStudio/geometry-of-meaning`**](https://github.com/NavidixStudio/geometry-of-meaning) | `MIT · EN/FA` | Bilingual 3D LLM internals lab (8D word embeddings, vector algebra, Self-Attention rays & Softmax sampler) · [**Live Demo**](https://navidixstudio.github.io/geometry-of-meaning/) |
+| [**`NavidixStudio/navidix-webgl-labs`**](https://github.com/NavidixStudio/navidix-webgl-labs) | `MIT · Toolkit` | Showcase of all **7 interactive 3D WebGL science labs** + reusable procedural Three.js PBR & FLIR 2D Heat PDE toolkit |
+| [**`NavidixStudio/awesome-ai-cinema-prompts-2026`**](https://github.com/NavidixStudio/awesome-ai-cinema-prompts-2026) | `MIT · Prompts` | Curated Nov 2026 multimodal AI cinema, 4K photo, vector SVG & software architecture prompt blueprints + 398-style taxonomy |
 
 ---
 
@@ -155,7 +157,7 @@ I love building ambitious, high-craft AI products, creative tools, and interacti
 - **استودیو یکپارچه‌ی هوش مصنوعی (۴۷۰+ مدل فعال در ۹ میزکار تخصصی):** دستیار صوتی زنده، گفت‌وگو و استدلال عمیق (`Claude Fable 5.2`، `GPT-6.2 Astra`، `Gemini 4 Neon`، `Gemini 4 Carbon`، `DeepSeek V4.1`)، استودیو کامل تصویر و ویدیوی 4K شامل **اتاق فیلم، تدوین، آواتار سخنگو، آپ‌اسکیل 4K و لوگوموشن** (`Flux 3`، `Nano Banana 2.1`، `Gemini Omni 1.2 Flash`، `Seedance 2.0`، `Veo 3.1`، `Recraft V4.1 SVG`)، استودیو صدا و گویندگی فارسی، کد و سایت‌ساز و ایجنت‌های خودمختار.
 - **پلتفرم علمی تعاملی سه‌بعدی ([`navidixstudio.com/explore/`](https://navidixstudio.com/explore/)):** ۷ آزمایشگاه زنده‌ی WebGL/Three.js بدون نیاز به بیلد خارجی — از جمله **درون یک پردازنده‌ی ۳ نانومتری (با دوربین حرارتی زنده‌ی FLIR و ترانزیستور GAA)** و **هندسه‌ی معنا (مکانیسم توجه و ریشه‌ی توهم هوش مصنوعی)**.
 - **آموزش، پژوهش و مستندسازی:** بیش از ۴۰۰ پرامپت آزموده‌شده، خط زمان ۲۷ مکتب هنری، بنچمارک‌های تخصصی مدل‌های ۲۰۲۶ و مستندهای علمی-فناوری در یوتیوب ([`@navidix`](https://youtube.com/@navidix)).
-- **مخازن عمومی و متن‌باز گیت‌هاب:** مستندات کامل معماری در [`navidix-studio`](https://github.com/NavidixStudio/navidix-studio) و کد کامل و قابل اجرای دو آزمایشگاه سه‌بعدی با مجوز MIT در [`inside-a-3nm-cpu`](https://github.com/NavidixStudio/inside-a-3nm-cpu) و [`geometry-of-meaning`](https://github.com/NavidixStudio/geometry-of-meaning).
+- **مخازن عمومی و متن‌باز گیت‌هاب:** مستندات کامل معماری و تور تصویری در [`navidix-studio`](https://github.com/NavidixStudio/navidix-studio)، کد کامل و دوزبانه‌ی دو آزمایشگاه سه‌بعدی با مجوز MIT در [`inside-a-3nm-cpu`](https://github.com/NavidixStudio/inside-a-3nm-cpu) و [`geometry-of-meaning`](https://github.com/NavidixStudio/geometry-of-meaning)، ابزارک PBR و حلگر حرارتی FLIR در [`navidix-webgl-labs`](https://github.com/NavidixStudio/navidix-webgl-labs) و مرجع پرامپت‌های ۲۰۲۶ در [`awesome-ai-cinema-prompts-2026`](https://github.com/NavidixStudio/awesome-ai-cinema-prompts-2026).
 
 </div>
 

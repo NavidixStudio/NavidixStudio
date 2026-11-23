@@ -190,9 +190,9 @@ $heroSvg = @"
   <text x="58" y="197" class="mono" font-size="13" font-weight="700" fill="#FF5A5F">nvx:~`$</text>
 
   <g transform="translate(116, 197)" class="mono" font-size="13" fill="#E6F0FF">
-    <text x="0" y="0" class="role-line r1">role --solo-founder "AI Systems Builder &amp; Director"</text>
-    <text x="0" y="0" class="role-line r2">studio.mount({ models: 470, workbenches: 9, os: "PWA" })</text>
-    <text x="0" y="0" class="role-line r3">webgl.launch(["3nm-cpu-flir", "geometry-of-meaning"])</text>
+    <text x="0" y="0" class="role-line r1">role --solo-founder "Architect of Navidix Studio OS"</text>
+    <text x="0" y="0" class="role-line r2">studio.mount({ models: 470, engines: 12, os: "EN/FA PWA" })</text>
+    <text x="0" y="0" class="role-line r3">engines.boot(["cut-nle", "film-room", "logo-60fps", "agents"])</text>
     <text x="0" y="0" class="role-line r4">echo "From One Sentence, To One Frame &#183; $(Esc $D.motto_fa)"</text>
   </g>
   <rect x="564" y="183" width="7" height="17" rx="1.5" fill="#38BDF8" class="cursor-blink"/>
@@ -217,14 +217,14 @@ $heroSvg = @"
   <g transform="translate(320, 288)">
     <rect x="0" y="0" width="126" height="66" rx="11" fill="#0D1628" fill-opacity="0.88" stroke="#2B3E63" stroke-width="1"/>
     <line x1="12" y1="1" x2="64" y2="1" stroke="#A78BFA" stroke-width="2"/>
-    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#DDD6FE">9 OS</text>
-    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">WORKBENCHES</text>
+    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#DDD6FE">12+</text>
+    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">STUDIO ENGINES</text>
   </g>
   <g transform="translate(458, 288)">
     <rect x="0" y="0" width="126" height="66" rx="11" fill="#0D1628" fill-opacity="0.88" stroke="#2B3E63" stroke-width="1"/>
     <line x1="12" y1="1" x2="64" y2="1" stroke="#34D399" stroke-width="2"/>
-    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#6EE7B7">7 × 3D</text>
-    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">WEBGL LABS</text>
+    <text x="14" y="31" class="sans" font-size="22" font-weight="800" fill="#6EE7B7">66</text>
+    <text x="14" y="50" class="mono" font-size="9.8" font-weight="600" fill="#8FA8D0" letter-spacing="0.8">BACKEND SVCS</text>
   </g>
 
   <!-- ==================== RIGHT HEXAGONAL APERTURE STAGE ==================== -->
@@ -621,13 +621,13 @@ $archSvg = @"
         <rect x="-5.5" y="-5.5" width="11" height="11" rx="2" fill="none" stroke="#C4B5FD" stroke-width="1.3"/>
       </g>
     </g>
-    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#C4B5FD">04 &#183; 3D LABS</text>
-    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Interactive Science 3D</text>
-    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">7 zero-build Three.js WebGL</text>
-    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">labs: 3nm CPU + FLIR PDE,</text>
-    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">LLM Attention, Relativity.</text>
-    <rect x="16" y="135" width="144" height="20" rx="6" fill="#1A1530" stroke="#4C357D" stroke-width="1"/>
-    <text x="24" y="149" class="mono" font-size="9.6" fill="#DDD6FE">7 LABS &#183; THREE.JS PBR</text>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#C4B5FD">04 &#183; ENGINES</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">In-Browser Post Suite</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Multi-track NLE Cut Room,</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">60fps Logo Motion Agent,</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">Talking Avatar &amp; 4K Upscale.</text>
+    <rect x="16" y="135" width="152" height="20" rx="6" fill="#1A1530" stroke="#4C357D" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.6" fill="#DDD6FE">CUT NLE &#183; 60FPS &#183; AVATAR</text>
   </g>
 
   <!-- Bottom Engineering Stack Ribbon -->
@@ -769,7 +769,7 @@ $($gridCells.ToString())
     <rect x="39" y="1" width="9" height="9" rx="2" fill="#E3202A"/>
     <rect x="52" y="1" width="9" height="9" rx="2" fill="#FF5E57"/>
   </g>
-  <text x="36" y="203" class="mono" font-size="10" fill="#647FA8">66 Backend Services &#183; 9 AI Workbenches &#183; 7 3D WebGL Labs</text>
+  <text x="36" y="203" class="mono" font-size="10" fill="#647FA8">66 Backend Services &#183; Multi-Track NLE &#183; 60fps Motion &#183; Telegram Bot</text>
 
   <rect x="500" y="18" width="442" height="200" rx="13" fill="#0B1222" stroke="#243656" stroke-width="1.2"/>
   <text x="518" y="42" class="mono" font-size="11" font-weight="700" fill="#B9D5FF" letter-spacing="0.9">NAVIDIX 2026 FLAGSHIP AI INDEX</text>

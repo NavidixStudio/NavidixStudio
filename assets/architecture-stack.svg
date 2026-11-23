@@ -94,13 +94,13 @@
         <rect x="-5.5" y="-5.5" width="11" height="11" rx="2" fill="none" stroke="#C4B5FD" stroke-width="1.3"/>
       </g>
     </g>
-    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#C4B5FD">04 &#183; 3D LABS</text>
-    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Interactive Science 3D</text>
-    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">7 zero-build Three.js WebGL</text>
-    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">labs: 3nm CPU + FLIR PDE,</text>
-    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">LLM Attention, Relativity.</text>
-    <rect x="16" y="135" width="144" height="20" rx="6" fill="#1A1530" stroke="#4C357D" stroke-width="1"/>
-    <text x="24" y="149" class="mono" font-size="9.6" fill="#DDD6FE">7 LABS &#183; THREE.JS PBR</text>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#C4B5FD">04 &#183; ENGINES</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">In-Browser Post Suite</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Multi-track NLE Cut Room,</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">60fps Logo Motion Agent,</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">Talking Avatar &amp; 4K Upscale.</text>
+    <rect x="16" y="135" width="152" height="20" rx="6" fill="#1A1530" stroke="#4C357D" stroke-width="1"/>
+    <text x="24" y="149" class="mono" font-size="9.6" fill="#DDD6FE">CUT NLE &#183; 60FPS &#183; AVATAR</text>
   </g>
 
   <!-- Bottom Engineering Stack Ribbon -->

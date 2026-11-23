@@ -16,9 +16,9 @@
 
 ---
 
-## Founder, Art & Film Director & Solo Architect of Navidix Studio
+## Founder, AI Art & Film Director & Solo Architect of Navidix Studio
 
-I am **Mohammad Navidi** — **Art & Film Director**, **Founder**, and **Solo Systems Architect** of [**Navidix Studio**](https://navidixstudio.com), a live commercial **Multimodal AI Creative Operating System** built at the intersection of cinema, visual direction, and full-stack software engineering.
+I am **Mohammad Navidi** — **AI Art & Film Director**, **Founder**, and **Solo Systems Architect** of [**Navidix Studio**](https://navidixstudio.com), a live commercial **Multimodal AI Creative Operating System** built at the intersection of cinema, visual direction, and full-stack software engineering.
 
 Instead of shipping a thin single-model chat wrapper, I spent months architecting a complete end-to-end production ecosystem unifying **470+ frontier AI models** across **12+ browser-native engines**, **66 modular backend services**, an **atomic zero-loss credit ledger**, a **bilingual (`EN / FA`) installable PWA**, and a **synchronized Telegram bot (`@navidix_bot`)**.
 
@@ -140,9 +140,9 @@ flowchart LR
 
 ## Collaborations & Partnerships
 
-Working at the intersection of **Art & Film Direction** and **AI Systems Engineering**, I collaborate directly with brands, creative studios, startups, and international teams across four tracks:
+Working at the intersection of **AI Art & Film Direction** and **AI Systems Engineering**, I collaborate directly with brands, creative studios, startups, and international teams across four tracks:
 
-- **Art & Film Direction (Cinema & Brand Films):** End-to-end direction of 4K cinematic commercials, brand films, visual campaigns, and science/tech documentaries with 24fps optical grammar, character continuity, and custom sound design.
+- **AI Art & Film Direction (Cinema & Brand Films):** End-to-end direction of 4K cinematic commercials, brand films, visual campaigns, and science/tech documentaries with 24fps optical grammar, character continuity, and custom sound design.
 - **Custom AI Production Pipelines:** Designing repeatable multimodal generation, visual identity, and 60fps motion workflows tailored for agencies, media teams, and production houses.
 - **AI Product & Systems Architecture:** Advisory and hands-on engineering for AI-native web applications, multi-model gateways, autonomous agent workspaces, and interactive frontends.
 - **Strategic Ventures & Global Partnerships:** Co-building ambitious creative-tech products with founders, CTOs, studios, and investors worldwide.
@@ -156,9 +156,9 @@ Working at the intersection of **Art & Film Direction** and **AI Systems Enginee
 
 <div dir="rtl" align="right">
 
-## معرفی فارسی — محمد نویدی | بنیان‌گذار، کارگردان هنری و سینمایی و معمار استودیو نویدیکس
+## معرفی فارسی — محمد نویدی | بنیان‌گذار، کارگردان هنری و سینمایی هوش مصنوعی و معمار استودیو نویدیکس
 
-من **محمد نویدی** هستم؛ **بنیان‌گذار، کارگردان هنری و سینمایی** و معمار [**استودیو نویدیکس**](https://navidixstudio.com). ماه‌ها زمان و تمرکز اصلی‌ام را صرف ساخت یک **سیستم‌عامل کامل تولید محتوا و هوش مصنوعی چندرسانه‌ای** در تقاطع سینما، کارگردانی بصری و مهندسی نرم‌افزار کرده‌ام:
+من **محمد نویدی** هستم؛ **بنیان‌گذار، کارگردان هنری و سینمایی هوش مصنوعی** و معمار [**استودیو نویدیکس**](https://navidixstudio.com). ماه‌ها زمان و تمرکز اصلی‌ام را صرف ساخت یک **سیستم‌عامل کامل تولید محتوا و هوش مصنوعی چندرسانه‌ای** در تقاطع سینما، کارگردانی بصری و مهندسی نرم‌افزار کرده‌ام:
 
 - **۴۷۰+ مدل هوش مصنوعی در ۱۲+ موتور تخصصی درون مرورگر:** تدوینگر ویدیوی چندلایه (**Cut Room NLE**)، **اتاق فیلم (Film Room)** برای کارگردانی چندشاته و ثبات کاراکتر، **استودیو لوگوموشن ۶۰ فریم و وکتور SVG** (با ایجنت هوشمند و همگام‌سازی صدا)، **آواتار سخنگو**، **آپ‌اسکیل 4K**، **استودیو صدا و موسیقی** (`Lyria 3 Pro`، `ElevenLabs v4`، گویندگی فارسی و افکت صوتی)، **گفت‌وگو با ۳۸۰+ مدل متنی و دستیار صوتی زنده**، **کد و سایت‌ساز** و **ایجنت‌های خودمختار**.
 - **معماری بک‌اند و زیرساخت تجاری (۶۶ سرویس):** مسیریابی هوشمند چندارائه‌دهنده، صف رندر موازی، دفترکل اتمی کردیت با بازگشت خودکار وجه در خطاها، اپلیکیشن PWA دوزبانه‌ی فارسی/انگلیسی و ربات همگام تلگرام (`@navidix_bot`).

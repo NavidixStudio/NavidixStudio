@@ -190,7 +190,7 @@ $heroSvg = @"
   <text x="58" y="197" class="mono" font-size="13" font-weight="700" fill="#FF5A5F">nvx:~`$</text>
 
   <g transform="translate(116, 197)" class="mono" font-size="13" fill="#E6F0FF">
-    <text x="0" y="0" class="role-line r1">role --founder "Art &amp; Film Director · AI Systems Architect"</text>
+    <text x="0" y="0" class="role-line r1">role --founder "AI Art &amp; Film Director · AI Systems Architect"</text>
     <text x="0" y="0" class="role-line r2">studio.mount({ models: 470, engines: 12, os: "EN/FA PWA" })</text>
     <text x="0" y="0" class="role-line r3">engines.boot(["cut-nle", "film-room", "logo-60fps", "agents"])</text>
     <text x="0" y="0" class="role-line r4">echo "From One Sentence, To One Frame &#183; $(Esc $D.motto_fa)"</text>
@@ -551,7 +551,7 @@ $archSvg = @"
   <rect x="2" y="2" width="956" height="320" rx="18" fill="url(#archBg)" stroke="#293B5C" stroke-width="1.4"/>
 
   <text x="24" y="33" class="mono" font-size="11.5" font-weight="700" fill="#9CC2F5" letter-spacing="1.2">02 &#183; STUDIO TRACKS &amp; FULL-STACK ARCHITECTURE</text>
-  <text x="936" y="33" text-anchor="end" class="fa" font-size="13" font-weight="600" fill="#FF7B73">$(Esc $D.role_fa)  &#183;  ART &amp; FILM DIRECTION</text>
+  <text x="936" y="33" text-anchor="end" class="fa" font-size="13" font-weight="600" fill="#FF7B73">$(Esc $D.role_fa)  &#183;  AI ART &amp; FILM DIRECTION</text>
 
   <!-- Card 1: Art & Film Direction -->
   <g transform="translate(20, 48)">
@@ -566,7 +566,7 @@ $archSvg = @"
       <circle cx="0" cy="0" r="2.5" fill="#FFFFFF"/>
     </g>
     <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#FF7B73">01 &#183; DIRECTION</text>
-    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Art &amp; Film Direction</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">AI Art &amp; Film Direction</text>
     <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Cinema brand films, visual</text>
     <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">identity, documentaries &amp;</text>
     <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">24fps AI storytelling.</text>

@@ -190,7 +190,7 @@
     <text x="0" y="11" class="sans" font-size="11.8" font-weight="700" fill="#E6F0FF">Gemini 4 Neon &amp; 4 Carbon <tspan class="mono" font-size="9.8" font-weight="400" fill="#829BC4">&#183; #1 Coding Agent · Multimodal</tspan></text>
     <text x="402" y="11" text-anchor="end" class="mono" font-size="11.2" font-weight="700" fill="#C4B5FD">99.0%</text>
     <rect x="0" y="16" width="402" height="6.5" rx="3.2" fill="#121C31"/>
-    <rect x="0" y="16" width="398" height="6.5" rx="3.2" fill="url(#bmGrad1)">
+    <rect x="0" y="16" width="398.0" height="6.5" rx="3.2" fill="url(#bmGrad1)">
       <animate attributeName="opacity" values="0.82;1;0.82" dur="2.55s" repeatCount="indefinite"/>
     </rect>
   </g>

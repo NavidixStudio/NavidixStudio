@@ -168,7 +168,7 @@ $heroSvg = @"
 
   <!-- ==================== LEFT EDITORIAL & CODE COLUMN ==================== -->
   <!-- Eyebrow Pill -->
-  <rect x="44" y="28" width="386" height="26" rx="13" fill="#13203B" fill-opacity="0.88" stroke="#365387" stroke-width="1"/>
+  <rect x="44" y="28" width="444" height="26" rx="13" fill="#13203B" fill-opacity="0.88" stroke="#365387" stroke-width="1"/>
   <circle cx="60" cy="41" r="4" fill="#38BDF8">
     <animate attributeName="r" values="3.2;4.6;3.2" dur="2.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>

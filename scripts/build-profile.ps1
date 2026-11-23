@@ -190,7 +190,7 @@ $heroSvg = @"
   <text x="58" y="197" class="mono" font-size="13" font-weight="700" fill="#FF5A5F">nvx:~`$</text>
 
   <g transform="translate(116, 197)" class="mono" font-size="13" fill="#E6F0FF">
-    <text x="0" y="0" class="role-line r1">role --solo-founder "Architect of Navidix Studio OS"</text>
+    <text x="0" y="0" class="role-line r1">role --founder "Art &amp; Film Director · AI Systems Architect"</text>
     <text x="0" y="0" class="role-line r2">studio.mount({ models: 470, engines: 12, os: "EN/FA PWA" })</text>
     <text x="0" y="0" class="role-line r3">engines.boot(["cut-nle", "film-room", "logo-60fps", "agents"])</text>
     <text x="0" y="0" class="role-line r4">echo "From One Sentence, To One Frame &#183; $(Esc $D.motto_fa)"</text>
@@ -199,7 +199,7 @@ $heroSvg = @"
 
   <!-- Editorial Manifesto -->
   <text x="44" y="242" class="sans" font-size="13.8" font-weight="500" fill="#D5E3FA">$(Esc $D.bio_line_1)</text>
-  <text x="44" y="265" class="sans" font-size="13.5" fill="#93AACF">$(Esc $D.bio_line_2)  <tspan class="fa" fill="#FF7B73" font-weight="600">($(Esc $D.less_talk_fa))</tspan></text>
+  <text x="44" y="265" class="sans" font-size="13.5" fill="#93AACF">$(Esc $D.bio_line_2)  <tspan class="fa" fill="#FF7B73" font-weight="600">$(Esc $D.role_fa)</tspan></text>
 
   <!-- Bottom 4 HUD Telemetry Pods -->
   <g transform="translate(44, 288)">
@@ -551,9 +551,9 @@ $archSvg = @"
   <rect x="2" y="2" width="956" height="320" rx="18" fill="url(#archBg)" stroke="#293B5C" stroke-width="1.4"/>
 
   <text x="24" y="33" class="mono" font-size="11.5" font-weight="700" fill="#9CC2F5" letter-spacing="1.2">02 &#183; STUDIO TRACKS &amp; FULL-STACK ARCHITECTURE</text>
-  <text x="936" y="33" text-anchor="end" class="fa" font-size="13" font-weight="600" fill="#FF7B73">$(Esc $D.less_talk_fa)  &#183;  LESS TALK, MORE BUILDING</text>
+  <text x="936" y="33" text-anchor="end" class="fa" font-size="13" font-weight="600" fill="#FF7B73">$(Esc $D.role_fa)  &#183;  ART &amp; FILM DIRECTION</text>
 
-  <!-- Card 1: Cinematic Documentaries -->
+  <!-- Card 1: Art & Film Direction -->
   <g transform="translate(20, 48)">
     <rect x="0" y="0" width="220" height="164" rx="13" fill="url(#cardGrad)" stroke="#273A5C" stroke-width="1.2"/>
     <rect x="14" y="0.5" width="130" height="2" fill="url(#topHairline)"/>
@@ -565,11 +565,11 @@ $archSvg = @"
       </g>
       <circle cx="0" cy="0" r="2.5" fill="#FFFFFF"/>
     </g>
-    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#FF7B73">01 &#183; CINEMA</text>
-    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Science &amp; Tech Docs</text>
-    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Cinematic short documentaries</text>
-    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">on physics, space, history &amp;</text>
-    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">deep-tech in Persian.</text>
+    <text x="48" y="33" class="mono" font-size="10.5" font-weight="700" fill="#FF7B73">01 &#183; DIRECTION</text>
+    <text x="16" y="64" class="sans" font-size="15" font-weight="700" fill="#FFFFFF">Art &amp; Film Direction</text>
+    <text x="16" y="87" class="sans" font-size="12.2" fill="#9EB3D6">Cinema brand films, visual</text>
+    <text x="16" y="105" class="sans" font-size="12.2" fill="#9EB3D6">identity, documentaries &amp;</text>
+    <text x="16" y="123" class="sans" font-size="12.2" fill="#9EB3D6">24fps AI storytelling.</text>
     <rect x="16" y="135" width="124" height="20" rx="6" fill="#1A1221" stroke="#4D2230" stroke-width="1"/>
     <text x="24" y="149" class="mono" font-size="9.8" fill="#FDA4AF">ANAMORPHIC &#183; 24FPS</text>
   </g>

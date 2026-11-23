@@ -16,11 +16,11 @@
 
 ---
 
-## What I Spent Months Building 100% Solo — The Navidix Studio AI Ecosystem
+## Founder, Art & Film Director & Solo Architect of Navidix Studio
 
-I am **Mohammad Navidi**, Founder & Solo Systems Architect of [**Navidix Studio**](https://navidixstudio.com) — a live, commercial, full-stack **Multimodal AI Creative Operating System** built completely solo from the ground up.
+I am **Mohammad Navidi** — **Art & Film Director**, **Founder**, and **Solo Systems Architect** of [**Navidix Studio**](https://navidixstudio.com), a live commercial **Multimodal AI Creative Operating System** built at the intersection of cinema, visual direction, and full-stack software engineering.
 
-Instead of shipping a thin single-model chat wrapper, I spent months engineering a real end-to-end production studio unifying **470+ frontier AI models** across **12+ browser-native engines**, **66 modular backend services**, an **atomic zero-loss credit ledger**, a **bilingual (`EN / FA`) installable PWA**, and a **synchronized Telegram bot (`@navidix_bot`)**.
+Instead of shipping a thin single-model chat wrapper, I spent months architecting a complete end-to-end production ecosystem unifying **470+ frontier AI models** across **12+ browser-native engines**, **66 modular backend services**, an **atomic zero-loss credit ledger**, a **bilingual (`EN / FA`) installable PWA**, and a **synchronized Telegram bot (`@navidix_bot`)**.
 
 > **Live Production Scale Shipped Solo:** **`470+`** Unified Frontier Models · **`12+`** Creative & Agent Engines · **`66`** Backend Services · **`1,880+`** Production Commits · **`398`** Curated Visual Styles · **Bilingual `EN / FA` PWA + Telegram Bot**
 
@@ -138,26 +138,31 @@ flowchart LR
 
 ---
 
-## Connect & Collaborate
+## Collaborations & Partnerships
 
-Built solo with relentless focus on real product depth, shipping velocity, and visual craft. Open to **global collaborations, creative-tech roles, AI product advisory, and strategic partnerships**:
+Working at the intersection of **Art & Film Direction** and **AI Systems Engineering**, I collaborate directly with brands, creative studios, startups, and international teams across four tracks:
 
-- **Live Platform:** [`navidixstudio.com`](https://navidixstudio.com) · **AI Studio:** [`navidixstudio.com/studio.html`](https://navidixstudio.com/studio.html)
-- **Direct Email:** [`mohammadnavidi1380@gmail.com`](mailto:mohammadnavidi1380@gmail.com)
+- **Art & Film Direction (Cinema & Brand Films):** End-to-end direction of 4K cinematic commercials, brand films, visual campaigns, and science/tech documentaries with 24fps optical grammar, character continuity, and custom sound design.
+- **Custom AI Production Pipelines:** Designing repeatable multimodal generation, visual identity, and 60fps motion workflows tailored for agencies, media teams, and production houses.
+- **AI Product & Systems Architecture:** Advisory and hands-on engineering for AI-native web applications, multi-model gateways, autonomous agent workspaces, and interactive frontends.
+- **Strategic Ventures & Global Partnerships:** Co-building ambitious creative-tech products with founders, CTOs, studios, and investors worldwide.
+
+- **Live Platform:** [`navidixstudio.com`](https://navidixstudio.com) · **AI Studio:** [`navidixstudio.com/studio.html`](https://navidixstudio.com/studio.html) · **About & Portfolio:** [`navidixstudio.com/about.html`](https://navidixstudio.com/about.html)
+- **Direct Email:** [`mohammadnavidi1380@gmail.com`](mailto:mohammadnavidi1380@gmail.com) · **Direct Telegram:** [`@NavidixStudio`](https://t.me/NavidixStudio)
 - **X (Twitter):** [`@Navidixx`](https://x.com/Navidixx) · **LinkedIn:** [`Mohammad Navidi`](https://www.linkedin.com/in/mohammad-navidi-7b8b75381)
-- **YouTube:** [`@navidix`](https://youtube.com/@navidix) · **Telegram:** [`@NavidixMedia`](https://t.me/NavidixMedia) · **Bot:** [`@navidix_bot`](https://t.me/navidix_bot)
+- **YouTube:** [`@navidix`](https://youtube.com/@navidix) · **Instagram:** [`@navidixstudio`](https://www.instagram.com/navidixstudio) · **Telegram Channel:** [`@NavidixMedia`](https://t.me/NavidixMedia)
 
 ---
 
 <div dir="rtl" align="right">
 
-## معرفی فارسی — اکوسیستم کامل استودیو نویدیکس (ساخته‌شده ۱۰۰٪ تکی)
+## معرفی فارسی — محمد نویدی | بنیان‌گذار، کارگردان هنری و سینمایی و معمار استودیو نویدیکس
 
-من **محمد نویدی** هستم؛ بنیان‌گذار و معمار [**استودیو نویدیکس**](https://navidixstudio.com). ماه‌ها زمان و انرژی اصلی‌ام را صرف طراحی، مهندسی و راه‌اندازی کامل یک **سیستم‌عامل تولید محتوا و هوش مصنوعی چندرسانه‌ای** به‌صورت یک‌نفره کرده‌ام:
+من **محمد نویدی** هستم؛ **بنیان‌گذار، کارگردان هنری و سینمایی** و معمار [**استودیو نویدیکس**](https://navidixstudio.com). ماه‌ها زمان و تمرکز اصلی‌ام را صرف ساخت یک **سیستم‌عامل کامل تولید محتوا و هوش مصنوعی چندرسانه‌ای** در تقاطع سینما، کارگردانی بصری و مهندسی نرم‌افزار کرده‌ام:
 
 - **۴۷۰+ مدل هوش مصنوعی در ۱۲+ موتور تخصصی درون مرورگر:** تدوینگر ویدیوی چندلایه (**Cut Room NLE**)، **اتاق فیلم (Film Room)** برای کارگردانی چندشاته و ثبات کاراکتر، **استودیو لوگوموشن ۶۰ فریم و وکتور SVG** (با ایجنت هوشمند و همگام‌سازی صدا)، **آواتار سخنگو**، **آپ‌اسکیل 4K**، **استودیو صدا و موسیقی** (`Lyria 3 Pro`، `ElevenLabs v4`، گویندگی فارسی و افکت صوتی)، **گفت‌وگو با ۳۸۰+ مدل متنی و دستیار صوتی زنده**، **کد و سایت‌ساز** و **ایجنت‌های خودمختار**.
 - **معماری بک‌اند و زیرساخت تجاری (۶۶ سرویس):** مسیریابی هوشمند چندارائه‌دهنده، صف رندر موازی، دفترکل اتمی کردیت با بازگشت خودکار وجه در خطاها، اپلیکیشن PWA دوزبانه‌ی فارسی/انگلیسی و ربات همگام تلگرام (`@navidix_bot`).
-- **کتابخانه‌ی ۳۹۸ سبک بصری و پرامپت‌های حرفه‌ای:** انتخاب یک‌کلیکه‌ی سبک نورپردازی و مکاتب هنری در [`navidixstudio.com/prompts.html`](https://navidixstudio.com/prompts.html) *(در کنار بخش آموزشی و آزمایشگاه‌های تعاملی [`/explore/`](https://navidixstudio.com/explore/))*.
+- **همکاری‌های تخصصی:** کارگردانی هنری و سینمایی تیزرها و فیلم‌های برند ۴K، طراحی پایپ‌لاین‌های اختصاصی هوش مصنوعی برای آژانس‌ها و تیم‌های محتوایی، معماری محصولات AI و مشارکت‌های استراتژیک بین‌المللی ([صفحه‌ی معرفی و همکاری مستقیم](https://navidixstudio.com/about.html#collab)).
 
 </div>
 
